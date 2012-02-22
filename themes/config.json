@@ -1,0 +1,66 @@
+{
+	"themes": {
+        "default":
+        {
+            "name": "default",
+            "desc": "Standard layout",
+            "image": null,
+            "restricted": null
+        },
+        "abzv":
+        {
+            "name": "abzv",
+            "desc": "ABZV",
+            "image": {
+                "width": 56,
+                "height": 25,
+                "format": "gif"
+            },
+            "restricted": null
+        },
+        "lemonde":
+        {
+            "name": "lemonde",
+            "desc": "Le Monde",
+            "image": {
+                "width": 101,
+                "height": 18,
+                "format": "gif"
+            },
+            "restricted": ["lemonde.fr"]
+        },
+        "datapublica":
+        {
+            "name": "datapublica",
+            "desc": "Data-Publica",
+            "image": {
+                "width": 100,
+                "height": 25,
+                "format": "png"
+            },
+            "restricted": ["data-publica.com", "nkb.fr"]
+        },
+        "paidcontent":
+        {
+            "name": "paidcontent",
+            "desc": "PaidContent",
+            "image": {
+                "width": 100,
+                "height": 27,
+                "format": "gif"
+            },
+            "restricted": ["paidcontent.org", "robertandrews.co.uk"]
+        },
+        "guardian":
+        {
+            "name": "guardian",
+            "desc": "Guardian.co.uk",
+            "image": {
+                "width": 100,
+                "height": 17,
+                "format": "png"
+            },
+            "restricted": ["guardian.co.uk", "nkb.fr"]
+        }
+    }
+}

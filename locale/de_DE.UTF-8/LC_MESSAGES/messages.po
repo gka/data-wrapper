@@ -1,0 +1,1096 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-18 18:29+0100\n"
+"PO-Revision-Date: 2012-02-22 21:46+0100\n"
+"Last-Translator: nkb <hi@nkb.fr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: C:/wamp/www/Data-Story\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: actions/check.php:53
+#: actions/export.php:67
+#: actions/publish.php:58
+msgid "Could not fetch the data from the database."
+msgstr "Daten könnten nicht aus Datenbank geladen werden."
+
+#: actions/export.php:75
+msgid "This page cannot be accessed."
+msgstr "Die Seite kann nicht angezeigt werden."
+
+#: actions/input.php:128
+msgid "Could not store the data on the database."
+msgstr "Daten konnten nicht in Datenbank gespeichert werden."
+
+#: actions/lang_change.php:36
+msgid "Unknown language code."
+msgstr "Unbekannter Code (Sprache). "
+
+#: actions/list_vis.php:21
+msgid "Not logged in, could not fetch the list of visualizations."
+msgstr "Nicht eingeloggt, die Liste der Visualisierungen wurde nicht geladen."
+
+#: actions/login.php:24
+#: actions/pwd_change.php:57
+#: actions/pwd_reminder.php:102
+#: actions/signup.php:102
+msgid "Not enough parameters were passed."
+msgstr "Zu wenig Parameter eingegeben."
+
+#: actions/logout.php:22
+msgid "Could not log out."
+msgstr "Logout war nicht möglich."
+
+#: actions/make_header.php:26
+msgid "Could not add a header row."
+msgstr "Kopfzeile konnte nicht hinzugefügt werden."
+
+#: actions/pwd_change.php:37
+#: actions/pwd_change.php:50
+msgid "Could not change password in the DB."
+msgstr "Kennwort in der Datenbank wurde nicht geändert. "
+
+#: actions/pwd_change.php:45
+msgid "No request for new password from this email address."
+msgstr "Emailadresse nicht in der Datenbank."
+
+#: actions/pwd_reminder.php:45
+msgid "Password change requested"
+msgstr "Kennwort-Änderung angefordert"
+
+#: actions/pwd_reminder.php:47
+#: actions/signup.php:49
+msgid "Dear Datawrapper user,"
+msgstr "Liebe(r) Datawrapper-Nutzer(in),"
+
+#: actions/pwd_reminder.php:49
+msgid "Please click on the link below to change your password: "
+msgstr "Bitte klicken Sie auf den unten stehenden Link, um Ihr Kennwort zu ändern:"
+
+#: actions/pwd_reminder.php:53
+msgid "Do ignore this message if you did not request a password change from Datawrapper."
+msgstr "Bitte ignorieren Sie diese Nachricht, falls Sie keine Änderung ihrer Zugangsdaten bei Datawrapper beantragt haben."
+
+#: actions/pwd_reminder.php:55
+#: actions/signup.php:55
+msgid "Thanks!"
+msgstr "Danke!"
+
+#: actions/pwd_reminder.php:57
+#: actions/signup.php:57
+msgid "The Datawrapper team"
+msgstr "Das Datawrapper Team"
+
+#: actions/pwd_reminder.php:74
+msgid "Could not send password change e-mail."
+msgstr "Verand der Mail zur Änderung der Zugangsdaten nicht möglich."
+
+#: actions/pwd_reminder.php:82
+#: actions/pwd_reminder.php:96
+msgid "Could not send password change email."
+msgstr " E-Mail zur Kennwortänderung wurde nicht abgeschickt."
+
+#: actions/pwd_reminder.php:90
+msgid "No user found with this email address."
+msgstr "Kein Benutzer mit dieser E-Mail-Adresse gefunden."
+
+#: actions/quickstart_noshow.php:25
+msgid "Could not disable quickstart in the database."
+msgstr "Schnellstart konnte in der Datenbank nicht deaktiviert werden."
+
+#: actions/quickstart_noshow.php:32
+msgid "No action required."
+msgstr "Keine Eingabe notwendig"
+
+#: actions/signup.php:47
+msgid "Please verify your e-mail address"
+msgstr "Bitten prüfen Sie Ihre E-Mail-Addresse."
+
+#: actions/signup.php:51
+msgid "Please click on the link below to verify your e-mail address: "
+msgstr "Bitten klicken Sie auf Link um Ihre E-Mail Addresse zu bestätigen:"
+
+#: actions/signup.php:74
+msgid "Could not send verification e-mail."
+msgstr "Die E-Mail könnte nicht versendet werden."
+
+#: actions/signup.php:82
+#: actions/signup.php:96
+msgid "Could not add user in the DB."
+msgstr "Benutzer konnte nicht in der Datenbank gespeichert werden."
+
+#: actions/signup.php:90
+msgid "A user already has this email address."
+msgstr "Diese E-Mail-Addresse wird bereits von einem anderen Benutzer verwendet."
+
+#: actions/transpose.php:42
+msgid "Could not transpose the data in the database."
+msgstr "Daten konnten in der Datenbank nicht umgestellt werden."
+
+#: actions/transpose.php:51
+msgid "You can only transpose a table with two entries."
+msgstr "Nur Tabellen mit zwei Einträgen können transponiert werden."
+
+#: actions/verify.php:28
+#: actions/verify.php:33
+msgid "Could not verify e-mail address."
+msgstr "Die E-Mail-Addresse konnte nicht verifiziert werden."
+
+#: class/user.class.php:43
+msgid "Error while trying to retrieve user from database."
+msgstr "Datenbankfehler bei Suche nach diesem Nutzer."
+
+#: class/user.class.php:67
+msgid "Error while trying to retrieve show_quickstart from DB."
+msgstr "Datenbankfehler bei Suche nach den Schnellstartoptionen. "
+
+#: class/user.class.php:101
+msgid "Last modified on"
+msgstr "Zuletzt geändert am"
+
+#: class/user.class.php:103
+msgid "Chart type: "
+msgstr "Chart-Typ:"
+
+#: class/user.class.php:105
+msgid "Visualization URL: "
+msgstr "URL der Grafik:"
+
+#: class/user.class.php:114
+msgid "No visualization was found"
+msgstr "Keine Visualisierung gefunden"
+
+#: class/user.class.php:120
+msgid "Error while trying to retrieve list from database."
+msgstr "Datenbankfehler bei Suche nach Liste"
+
+#: class/user.class.php:124
+msgid "User not logged in."
+msgstr "Benutzer nicht eingeloggt."
+
+#: class/user.class.php:154
+msgid "User and password do not match or user not activated."
+msgstr "Benutzer und Kennwort stimmen nicht überein, oder Nutzer ist nicht aktiviert."
+
+#: class/user.class.php:160
+msgid "Could not check the user credentials in the DB."
+msgstr "Daten des Nutzers konnten konnten in der Datenbank nicht überprüft werden. "
+
+#: phpMyAdmin/pmd_relation_new.php:68
+msgid "General relation features"
+msgstr "Allgemeine Funktionsmerkmale"
+
+#: phpMyAdmin/pmd_relation_new.php:68
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: views/check.php:151
+msgid "Check that your data was correctly understood."
+msgstr "Bitte prüfen Sie, ob Ihre Daten richtig verstanden wurden."
+
+#: views/check.php:154
+msgid "Edit the data"
+msgstr "Daten bearbeiten"
+
+#: views/check.php:158
+msgid "Transpose data"
+msgstr "Daten umstellen"
+
+#: views/check.php:162
+msgid "Make first row a header row"
+msgstr "Erste Zeile als Kopfzeile setzen"
+
+#: views/comingsoon.php:7
+msgid "Datawrapper, a project by DataStory"
+msgstr "Datawrapper ist ein Projekt der ABZV"
+
+#: views/comingsoon.php:28
+msgid "Datawrapper is coming soon"
+msgstr "Datawrapper wird bald freigeschaltet"
+
+#: views/contents.php:5
+msgid "About"
+msgstr "Über"
+
+#: views/contents.php:6
+msgid "What is Datawrapper?"
+msgstr "Was ist Datawrapper?"
+
+#: views/contents.php:8
+msgid "In short: This is a little tool for journalists. It reduces the time to create and embed a simple chart from hours to seconds."
+msgstr "Kurzfassung: Dieses Werkzeug ist für Journalisten bestimmt. Es reduziert die Zeit, um einfache Datenvisualisierungen zu erstellen und in einer beliebigen Webseite einzubetten von Stunden auf Sekunden.  "
+
+#: views/contents.php:10
+#: views/contents.php:66
+#: views/footer.php:7
+msgid "Motivation"
+msgstr "Motivation"
+
+#: views/contents.php:11
+msgid "There are many uses of data in journalism. The first step though is to use data more and often as a basis for reporting. Doing this has become easier, because of the large amounts of data becoming available, thanks to the OpenData movement and other initiatives."
+msgstr "Es gibt viele Spielarten des Datenjournalismus. Der erste Schritt besteht darin, Daten und Zahlen als Basis eines Beitrags zu nutzen - nicht nur als schmückendes Beiwerk. Daten zu finden ist einfacher geworden, weil immer größere Bestände im Netz veröffentlicht werden - dank der Open Data Bewegung und anderer Initiativen. Aber es gibt auch Barrieren."
+
+#: views/contents.php:13
+msgid "But there are bottlenecks."
+msgstr "Aber es gibt Barrieren."
+
+#: views/contents.php:15
+msgid "One is that creating even a simple visual chart and embedding it into a story is still too complex and time consuming. Yes, there are extensive other offerings, like IBM ManyEyes or the growing Google Chart API. They are great. But they have downsides, if used by journalists. For example you often have to store your trials data in public, can't get it out again. Plus, control over the look and feel of your charts is limited or complex to change if you are not a coder."
+msgstr "Eine besteht darin, dass die Erstellung einer einfachen Visualisierung, die sich in eine Online-Seite einbetten lässt, immer noch recht komplex und zeitaufwändig ist. Richtig, es gibt mittlerweile viele Plattformen, die diesen Prozess vereinfachen, wie zum Beispiel IBM Many Eyes oder auch die wachsende Google Chart API. Das sind Fortschritte. Doch die bisher verfügbaren Anwendungen in diesem Bereich haben auch Nachteile, vor allem bei der Nutzung durch Journalisten. Zum Beispiel muss man oft die eigenen Daten auf der fremden Plattform speichern und selbst erste Versuche werden schon veröffentlicht. Oft ist es auch schwer, die Daten später wieder zu löschen oder zu extrahieren. Ein weiterer Nachteil ist, dassdie Kontrolle über das Design, Logos und andere Gestaltungselemente beschränkt sind - oder Änderungen schlicht zu kompliziert sind, wenn man kein Programmierer ist."
+
+#: views/contents.php:17
+msgid "Create simple, embeddable charts in seconds, not hours"
+msgstr "Einfache Visualisierungen mit Einbett-Code in Sekunden, nicht Stunden "
+
+#: views/contents.php:18
+msgid "This is what Datawrapper does: This little tool reduces the time needed to create a correct chart and embed it into any CMS from hours to seconds."
+msgstr "Datawrapper ist eine Alternative: Dieses Werkzeug reduziert die Zeit, die man für die Erstellung und Publikation einer Visualisierung in jedem beliebigen Content Management System benötigt, von Stunden auf Minuten. "
+
+#: views/contents.php:20
+msgid "Furthermore, Datawrapper is not a honey-trap. The data you work with or store is yours and yours alone. Trials are not openly published."
+msgstr "Besonderen Wert legen wir auf Datenschutz: Die Daten, die hier eingegeben werden, gehören allein dem Nutzer und ihm allein. Erste Versuche und Experimente, die Nutzer auf der Web verfügbaren Plattform anlegen, werden nur veröffentlicht, wenn der Nutzer diese aktiv irgendwo einbettet."
+
+#: views/contents.php:22
+msgid "On top of that, we encourage news organizations to fork Datawrapper via Github and install it on one of your own servers."
+msgstr "Eine noch stärkere Kontrolle der Anwendung ergibt sich, wenn ein Medienunternehmen oder Blog die Datawrapper-Applikation auf einem eigenen Server installiert.  DataWrapper ist eine Open Source Anwendung."
+
+#: views/contents.php:23
+msgid "The CSS is accessible, meaning that in one day you can make sure that the charts generated with Datawrapper have your logo, your visual styles and colours."
+msgstr "Der CSS-Code kann verändert werden, so dass die visuelle Darstellung dem jeweiligen Erscheinungsbild einer Zeitung (Farbe, Schrift, Logo) exakt entspricht. Das muss man nur einmal machen, nicht jedesmal."
+
+#: views/contents.php:25
+#, php-format
+msgid "A short tutorial on %show to use Datawrapper is here%s."
+msgstr "Eine kurze Anleitung, wie man Datawrapper nutzen kann, %sfindet sich hier%s."
+
+#: views/contents.php:27
+msgid "Background"
+msgstr "Hintergrund "
+
+#: views/contents.php:29
+msgid "Datawrapper was developed for ABZV, a journalism training organization affiliated to BDVZ (German Association of Newspaper Publishers). It is part of our efforts to develop a comprehensive curriculum for data-driven journalism."
+msgstr "Datawrapper ist ein Projekt der ABZV (Bildungswerk der Zeitungen) und ein Angebot zur Aus- und Weiterbildung von Journalisten. Dieses Werkzeug ist Teil eines größeren Projekts, das den Aufbau einer strukturierten Weiterbildung im Bereich Datenjournalismus zum Ziel hat."
+
+#: views/contents.php:31
+msgid "Features"
+msgstr "Datawrapper Funktionen "
+
+#: views/contents.php:33
+msgid "Use of this tool is free."
+msgstr "Die Nutzung dieses Werkzeugs ist kostenfrei."
+
+#: views/contents.php:35
+msgid "Datawrapper 0.1 is a non-commercial, open source software, licensed under the MIT License."
+msgstr "Datawrapper Version 0.1 ist eine nicht-kommerzielle Open Source Software, lizensiert unter der MIT Licence.  "
+
+#: views/contents.php:37
+msgid "Datawrapper uses HTML5 Javascript libraries, namely Highcharts and D3.js, with more to come."
+msgstr "Datawrapper nutzt HTML5 Libraries, speziell Highcharts und D3.js, ein schrittweiser Ausbau ist geplant. Programmierer, die uns dabei unterstützen wollen, sind herzlich willkommen."
+
+#: views/contents.php:39
+msgid "Datawrapper can be forked on GitHub and installed on your own server."
+msgstr "Datawrapper kann über GitHub heruntergeladen werden und auf einem eigenen Server installiert werden.  "
+
+#: views/contents.php:44
+msgid "Datawrapper: Goals and Features"
+msgstr "Datawrapper: Ziele und Funktionen"
+
+#: views/contents.php:46
+msgid "Data Journalism opens new perspectives to do deeper and better reporting. If Journalists do really know the numbers and the data - locally, regionally or worldwide - this could lead to higher trustability and relevancy. The readers want clear signals, not some muddled up guessing. Datawrapper is a tool that makes working from data to story easier. Data should be the foundation when starting a new story, not an afterthought. In many newsrooms this is the other way round so far. „Infographics“ are usually started when the story is already done. That leads to actionism, omissions and mistakes. "
+msgstr "Daten sollten möglichst oft am Anfang der Recherche stehen, nicht irgendwann am Schluss. In vielen Redaktionen ist das anders. Visualisierungen werden erst dann erstellt, wenn der Artikel schon fertig ist. Das führt zu Hektik, Auslassungen und Fehlern.Datenjournalismus bietet Perspektiven: Für eine tiefere und bessere Berichterstattung. Wenn sich Journalisten intensiv mit vorhandenen Zahlen - lokal, regional oder weltweit - auskennen, führt das zu erhöhter Glaubwürdigkeit und Relevanz. Die Leser wünschen sich klare Aussagen. Der Datawrapper ist ein Werkzeug, um diese Arbeitsmethodik zu fördern. "
+
+#: views/contents.php:48
+msgid "Open Source"
+msgstr "Open Source"
+
+#: views/contents.php:50
+msgid "The most important feature of Datawrapper is its fully open source character. Journalists, bloggers and any media company can download this little helper and install it on a private server. The design of the charts can be adjusted to your outfit's style - you can change the colors, the visual style and the logos. This is increasingly important, because in too many „free“ platforms someone is somehow lurking over the journalists shoulder. Not here. "
+msgstr "Journalisten, Blogger, Verlage können die Applikation herunterladen und auf einem eigenen Server installieren. Das Design der Charts lässt sich an das Markenbild anpassen. Das ist wichtig, denn in viel zu vielen Plattformen schauen einem die Anbieter über die Schulter. Hier nicht."
+
+#: views/contents.php:52
+msgid "HTML5 Chart Libraries"
+msgstr "HTML Chart Libraries"
+
+#: views/contents.php:54
+#, php-format
+msgid "Datawrapper uses modern Javascript, HTML5 Libraries like Highcharts oder D3.JS. We want to provide an access to these powerful options. This is a step towards the future as the web prepares for a switch to new visualization options in the near future. So far, especially on news websites, some %sfancy features%s where not used in order to not loose any users who still have incompatible (read: very old) browsers. But developers are about to change their mind. The message to users is: Get a decent browser. Downloading and installing a modern, HTML5 capable browser takes a few minutes and opens the door to many, many future options."
+msgstr "Datawrapper nutzt moderne HTML5 Libraries wie Highcharts oder D3.JS und macht sie leichter nutzbar. Das ist ein Schritt Richtung Zukunft. Denn im Web findet derzeit ein Umdenken statt: Bisher wurde überall große Rücksicht auf Nutzer mit Browsern genommen, die bestimmte Formate nicht richtig darstellen. Angesichts der vielen Möglichkeiten, die sich mit HTML5 und %sdem Canvas-Element%s bieten, lässt sich aber auch anders argumentieren: Leute, holt euch einen modernen Browser, das dauert 10 Minuten und bietet viele, viele Möglichkeiten."
+
+#: views/contents.php:56
+msgid "Visualize fast, very fast"
+msgstr "Schnell visualisieren"
+
+#: views/contents.php:58
+msgid "Using Datawrapper you can create a chart in minutes. Interestingly, doing visualization fast is not the goal of Datawrapper. Preparation, thinking, digging into data and make sense of it is still the main work of data journalists. Datawrapper does the visualization job fast, but merely to not stand in the way to publish something cool. Throwing nonsensical data into this will most probably lead to nonsensical results."
+msgstr "Mit Datawrapper kann man in wenigen Minuten einen Chart erstellen. Interessanterweise ist das aber nur ein Nebenaspekt. Dieses Werkzeug soll Journalisten helfen, wenn bei nahender Deadline eine klare Visualisierung erstellt werden muss. Vorbereitung, Vorüberlegung, kritische Prüfung der Daten und der Datenqualität sind trotzdem wichtig."
+
+#: views/contents.php:60
+msgid "Chart types"
+msgstr "Chart-Typ:"
+
+#: views/contents.php:62
+msgid "The development of this (small) tool was more winded than initially thought. No surprise here. The main challenge was to find a way to reduce the number of steps to a minimum and at the same time offer a lot of features and options."
+msgstr "Die Entwicklung dieses Tools war langwieriger als gedacht. Die Herausforderung lag nicht darin, möglichst viele Funktionen anzubieten. Sondern darin, die Zahl der Arbeitsschritte so klein wie möglich zu halten und gleichzeitig einen klaren Aufbau zu bewahren."
+
+#: views/contents.php:64
+msgid "This is why this beta version does only have five basic chart types. But it is a start and shows what is possible. In the future we would like to add more compelling visualizations. To do that we need the support of the data journalism community. If you are a developer who is interested in journalism, please help us."
+msgstr "Daher starten wir diese Betaversion nur mit fünf - relativ einfachen - Basischarts. In Zukunft wollen wir weitere Optionen anfügen. Damit das klappt, sind wir auf Unterstützung angewiesen. Entwickler mit Interesse an Journalismus oder  Mitarbeiter aus Medienunternehmen können uns helfen, weitere Optionen hinzuzufügen."
+
+#: views/contents.php:68
+#, php-format
+msgid "We are data journalists. We believe, that digging into numbers, structures and influence patterns is extremely important. Doing this with a journalist's mind will build trustability in what is reported. And it opens new perspectives, for example to turn media companies into %s trusted data hubs %s. Who wants to join us?"
+msgstr "Wir wollen Datenjournalismus fördern. Wir glauben, dass eine tiefe Kenntnis der Zahlen, Strukturen und Einflussfaktoren sehr wichtig ist, damit Journalismus glaubwürdig bleibt und neue Perspektiven entsteht. Wer arbeitet mit?"
+
+#: views/contents.php:75
+msgid "To install Datawrapper on your server, download all files from GitHub or do a 'git pull'. Create the appropriate tables in your database using the .sql dump. Then create a file with your database passwords to be stored in /actions/passwords.php under the form"
+msgstr "Um Datawrapper auf einem eigenen Server zu installieren, laden sie alle Dateien über GitHub herunter. Alternativ funktioniert ein 'git pull'. Erstellen sie die notwendigen Tabellen in ihrer Datenbank unter Nutzung des .sql dump. Danach erstellen sie eine Datei mit den Datenbanken-Kennwörtern, diese muss im Ordner /actions/passwords.php\" unter dem Formular gespeichert werden. "
+
+#: views/contents.php:82
+#, php-format
+msgid "If you are a for-profit venture, make sure to %sbuy a license for the use of HighCharts%s."
+msgstr "Wenn Ihr Unternehmen gewinnorientiert ist, müssen sie zuvor einen entsprechende Lizenz kaufen, um die Visualisierungsbibliothek Highcharts nutzen zu können. Bitte prüfen Sie sehr genau, ob die gewünschte Nutzungsform durch die Lizenz abgedeckt ist. "
+
+#: views/contents.php:87
+msgid "Terms of use"
+msgstr "Benutzungsbedigungen"
+
+#: views/contents.php:88
+msgid "Fair usage policy"
+msgstr "Fair use Verfahren"
+
+#: views/contents.php:89
+msgid "Datawrapper is licensed to visualize data that comes from public, legal sources or your own research. Should we detect uses that might violate rights of organizations or single persons we reserve the right to block an account, notify the owner and ask them to stop using Datawrapper."
+msgstr "Datawrapper kann kostenfrei für die Visualisierung von Daten genutzt werden, die aus öffentlichen und freien Quellen stammen oder die eigene Recherche. Sollten wir Verstöße gegen diese Vorgaben feststellen, die die Rechte von Organisationen oder einzelnen Personen verletzen, behalten wir uns das Recht vor einen Accout zu sperren und werden den jeweiligen Nutzer auffordern, DataWrapper nicht mehr einzusetzen.  "
+
+#: views/contents.php:90
+msgid "Limited responsibility"
+msgstr "Beschränkter Haftung"
+
+#: views/contents.php:91
+msgid "This service is provided as is. DataStory will certainly not be held accountable if your data is damaged by a server failure or any other cause."
+msgstr "Dieses Serviceangebot wird ohne weitere Garantie angeboten. Die Betreiber von Datawrapper übernehmen keine Haftung sollten Daten durch einen Serverausfall verloren gehen - dies gilt auch für sonstige Ausfälle oder eine eventuelle Beendigung des Services. Wenn Sie absichern wollen, dass ihre Visualisierungen dauerhaft verfügbar sind, sollten Sie die Download-Version und eine eigene Serverinstallation nutzen.  "
+
+#: views/contents.php:92
+msgid "Privacy"
+msgstr "Schutz der Privatsphäre/Datenschutz "
+
+#: views/contents.php:93
+msgid "Datawrapper will not use your private data in any way not necessary for the provision of the Service. However, you have the right to ask for the modification or removal of any personal data in accordance with the laws of Germany."
+msgstr "Datawrapper und die ABZV werden in keinem Fall irgendwelche privaten Daten oder Nutzerinformationen mit Dritten teilen. Rechte, die sich aus den Vorgaben des Datenschutzes ergeben bleiben davon unberührt. Datawrapper unterliegt deutschem Recht. Sollten Sie wegen veröffentlichter Daten eine Beschwerde einreichen wollen, wenden Sie sich bitte an folgende E-Mail Adresse: info@abzv.de "
+
+#: views/contents.php:94
+msgid "Note that for installation on your own server a license fee for Highcharts is mandatory."
+msgstr "Bitte beachten: Datawrapper nutzt die Visualisierungsbibliothek Highcharts. Für eine Installation auf einem eigenen Server müssen Sie eine Lizenz von Highcharts erwerben. "
+
+#: views/contents.php:98
+#: views/footer.php:11
+msgid "Legal imprint"
+msgstr "Impressum"
+
+#: views/contents.php:100
+msgid "Publisher"
+msgstr "Verleger"
+
+#: views/contents.php:101
+msgid "ABZV • Bildungswerk der Zeitungen, 2011"
+msgstr "ABZV • Bildungswerk der Zeitungen "
+
+#: views/contents.php:102
+msgid "The Academy of Vocational Education of the German Newspaper Publishers Association (ABZV) is a training center for German newspapers. Founded in 1989, it supports the efforts of its members and organizes its own seminars."
+msgstr "Die Akademie Berufliche Bildung der deutschen Zeitungsverlage (ABZV) ist ein eingetragener, gemeinnütziger Verein. Wir sind eine Institution zur berufsbegleitenden, überbetrieblichen Aus- und Weiterbildung von Print-Journalistinnen und Print-Journalisten,vertreten durch den Vorstand \vDietmar Wolff (Vorsitzender), Hendrik Wüst (stv. Vorsitzender), Dirk Glock."
+
+#: views/contents.php:104
+msgid "Address: In der Wehrhecke 1, 53125, Bonn Germany"
+msgstr " In der Wehrhecke 1, 53125, Bonn."
+
+#: views/contents.php:106
+msgid "Tel : 0228 - 20 77 66 22 Fax: 0228 - 20 77 66 23 E-Mail: info@abzv.de"
+msgstr "Tel : 0228 - 20 77 66 22 Fax: 0228 - 20 77 66 23 E-Mail: info@abzv.de"
+
+#: views/contents.php:108
+msgid "Registered in the Vereinsregister in Bonn under:  20 VR 7689"
+msgstr "Eingetragen in das Vereinsregister beim Amtsgericht Bonn unter der Nummer:  20 VR 7689"
+
+#: views/contents.php:110
+msgid "In charge of content: Beate Füth (same address)."
+msgstr "Verantwortlich für den Inhalt: Beate Füth (Anschrift wie oben) "
+
+#: views/contents.php:111
+msgid "Host"
+msgstr "Host"
+
+#: views/contents.php:112
+msgid "CloudControl • Helmholtz-Str. 2-9, D-10587 Berlin"
+msgstr "Tel : 0228 - 20 77 66 22 Fax: 0228 - 20 77 66 23 E-Mail: info@abzv.de"
+
+#: views/contents.php:113
+msgid "Credits"
+msgstr "Credits"
+
+#: views/contents.php:114
+msgid "Idea/Concept"
+msgstr "Idee und Konzept"
+
+#: views/contents.php:114
+msgid "Development"
+msgstr "Programmierung"
+
+#: views/contents.php:132
+msgid "Tutorial: How to get good charts out of Datawrapper"
+msgstr "Anleitung: Wie man mit Datawrapper gute Visualisierungen erstellt "
+
+#: views/contents.php:135
+msgid "Yes, no one reads the manual, but this one is really short. Here we show you how to get the most out of Datawrapper - what data to look for and how to format it to get a correct, good looking chart. Our tool can help you, but if you feed it the wrong data it will fail."
+msgstr "Richtig, niemand liest die Anleitung - doch diese hier ist sehr kurz. Hier zeigen wir, wie man mit Datawrapper arbeiten kann - welche Daten man suchen muss und wie man die Daten formatiert, um einen korrekten, aussagekräftigen Chart zu erzeugen. Datawrapper kann ihnen bei der Visualisierung helfen, doch wenn Sie die falschen Daten einfügen,  wird es nicht funktionieren. "
+
+#: views/contents.php:137
+msgid "Why only five types of charts?"
+msgstr "Warum nur so wenige Visualisierungsvarianten?"
+
+#: views/contents.php:139
+msgid "We had to start somewhere and we had to stop somewhere. In the future we would like to add more chart types, to this end we are looking for developers/designers. Contact us at "
+msgstr "Wir mussten irgendwo anfangen und auch irgendwo aufhören. In Zukunft möchten wir weitere Visualisierungsformen anbieten und suchen dafür den Kontakt zu Entwicklen und Designern. Wenn Sie interessiert sind, senden Sie uns eine Email. "
+
+#: views/contents.php:140
+msgid "On to part 1. Lines"
+msgstr "Weiter zu Teil 1: Linien"
+
+#: views/contents.php:145
+msgid "Line chart"
+msgstr "Linien"
+
+#: views/contents.php:147
+msgid "This is easy. You can visualize one or multiple lines. In order to graph them properly here is the best way to prepare your table or spreadsheet."
+msgstr "Das ist einfach. Man kann eine oder mehrere Linien gleichzeitig visualisieren. Damit die Visualisierung korrekt aussieht, müssen die Daten in einer bestimmten Form in einer Tabelle gespeichert sein. "
+
+#: views/contents.php:149
+msgid "Your data for a single line should like this:"
+msgstr "Daten für die Darstellung einer einzelnen Linie sollten so aussehen: "
+
+#: views/contents.php:152
+msgid "Sample data for a single line chart."
+msgstr "Beispieldaten für ein Linienchart. "
+
+#: views/contents.php:153
+msgid "On to part 2. Bar charts"
+msgstr "Weiter zu Teil 2: Balkendiagramme"
+
+#: views/contents.php:157
+msgid "Bar chart"
+msgstr "Säulen"
+
+#: views/contents.php:159
+msgid "If you have data describing a certain value say month by month or if you want to compare the revenue of company A with the revenue from company B, a bar chart is the way to go."
+msgstr "Bei Daten, die zu einem bestimmten Zeitpunkt (Woche, Monat, Jahr) erhoben wurden, eignet sich ein Balkendiagramm. So lässt sich zum Beispiel die Umsatzentwicklung eines Unternehmens darstellen. Mit mehreren Balken lässt sich der Umsatz von Firma A mit dem von Firma B vergleichen. "
+
+#: views/contents.php:161
+msgid "Your data for a bar chart should like this:"
+msgstr "Die "
+
+#: views/contents.php:164
+#: views/contents.php:180
+msgid "Sample dataset for a bar chart."
+msgstr "Beispieldaten für ein Balkendiagram:"
+
+#: views/contents.php:165
+msgid "On to part 3. Pie chart"
+msgstr "Weiter zu Teil 3: Tortendiagramm"
+
+#: views/contents.php:169
+msgid "Pie chart"
+msgstr "Torte"
+
+#: views/contents.php:171
+msgid "Careful, pie charts can be misused and then they distort the message. Use a pie chart if you have data that can be compared proportionally - say, to show how after an election 100 per cent of the vote are spread to the various political parties."
+msgstr "Hier bitte Vorsicht. Tortendiagramme können falsch eingesetzt werden und verzerren dann die Aussage. Ein Tortendiagramm wird genutzt, um das Verhältnis der Anteile darzustellen. Ein gutes Beispiel sind Wahlen, hier wird dieser Grafiktyp eingesetzt, um die Stimmverteilung zu zeigen. "
+
+#: views/contents.php:173
+msgid "Do not use a pie chart if there are to many labels. Often a bar chart is better than a pie chart to show the relation and trend."
+msgstr "Verzichten Sie auf die Nutzung einer Torten-Grafik, wenn es zu viele Kategorien gibt. In dem Falle ist ein vertikales oder horizontales Balkendiagramm meist besser geeignet, die Relation und den Trend darzustellen. "
+
+#: views/contents.php:173
+msgid " Read more about pie charts."
+msgstr "Mehr Hintergrund zu Tortendiagrammen (in Englisch)."
+
+#: views/contents.php:175
+msgid "By the way: In a correct pie chart the biggest pie should start at twelve o'clock. And just forget about the shadows and 3D effects of desktop programs. This will get you into a shitstorm."
+msgstr "Anmerkung: Bei einem wirklich korrekten Tortendiagramm sollte die jeweils größte Gruppe bei zwölf Uhr im Uhrzeigersinn starten. Auf Schatten und 3D Effekte sollten Sie generell verzichten, richtig schlechte Charts lösen im Internet Unwillen aus. "
+
+#: views/contents.php:177
+msgid "Your data for a pie chart should like this:"
+msgstr "Die Daten für ein Tortendiagramm sollten soe aussehen: "
+
+#: views/contents.php:181
+msgid "On to part 4. Streamgraph"
+msgstr "Streamgraph"
+
+#: views/contents.php:185
+msgid "Streamgraph"
+msgstr "Streamgraph"
+
+#: views/contents.php:187
+msgid "This is our fancy graph. You can use this form to show the pattern of a lot of data over long periods of time. Some people love these, some hate them (because what the chart really says is sometimes a mystery)."
+msgstr "Dies ist unser bisher einzige ungewöhnliches Chart. Man kann damit ein Muster bei großen Datenmengen oder über einen längeren Zeitraum verdeutlichen. Einige Nutzer lieben diese Formen, anderen lehnen sie ab (weil je nach Daten manchmal nicht ganz klar wird, was der Chart nun aussagt). "
+
+#: views/contents.php:187
+msgid " Here is a long paper for all of you who want to learn more."
+msgstr "Hier ist ein längeres Hintergrundpapier, für alle die mehr lernen wollen. "
+
+#: views/contents.php:189
+msgid "A streamgraph will effectively draw lines and fill the space between these. This is good to display how music preferences have changed over time or how certain topics have been cited more or less often."
+msgstr "Ein \"Streamgraph\" zeichnet Linien und füllt dann den Zwischenraum farblich aus. Das ist gut, um zum Beispiel den Wandel von Musikvorlieben zu visualisieren oder wie lange ein bestimmtes Schlagwort häufig oder weniger häufig benutzt wurde. "
+
+#: views/contents.php:191
+msgid "Your data for a streamgraph should like this:"
+msgstr "Die Daten für den \"Streamgraph\" sollten so aussehen: "
+
+#: views/contents.php:194
+msgid "Sample dataset for a streamgraph."
+msgstr "Beispieldaten für einen \"Streamgraph\"."
+
+#: views/contents.php:195
+msgid "If you have better examples, better datasets or just want to vent off, contact us via"
+msgstr "Wenn Sie bessere Beispiele oder bessere Daten kennen oder aber schlicht Kritik oder Lob loswerden wollen, schreiben Sie uns an "
+
+#: views/contents.php:197
+msgid "Let's go!"
+msgstr "Los geht's!"
+
+#: views/contents.php:237
+#: views/footer.php:13
+msgid "Quickstart"
+msgstr "Schnellstart "
+
+#: views/contents.php:239
+msgid "Using Datawrapper is simple"
+msgstr "Datawrapper: Mit wenigen Klicks zur Visualisierung"
+
+#: views/contents.php:243
+msgid "Search for a data set - can be an Excel chart, a Google Table or even a table in any web page. Make sure that the data has no copyright restrictions for further use. "
+msgstr "Suchen Sie nach einer Datentabelle - in Excel, einer Google Tabelle oder sogar einer Tabelle auf einer Webseite. Stellen Sie sicher, dass die Daten keinen Nutzungsbeschränkungen unterliegen"
+
+#: views/contents.php:246
+msgid "Copy the table "
+msgstr "Kopieren Sie die Tabelle (Rechtsklick mit der Maus oder der jeweils gültige Befehl). Tipp: Wenn es Spaltennamen gibt, kopieren Sie diese mit."
+
+#: views/contents.php:249
+msgid "Go to Datawrapper and drop the content into the first screen"
+msgstr "Gehen Sie zum Datawrapper und fügen Sie die Tabelle einfach in das erste Feld ein. Dadurch wird die Tabelle zugleich bereinigt (Einrückungen, Punkte, Kommata)."
+
+#: views/contents.php:252
+msgid "Click next and check your data."
+msgstr "Wurden die Daten richtig erkannt? \vHier sehen Sie, ob die Daten korrekt erkannt wurden. Wenn das Ergebnis unverständlich aussieht, überprüfen oder bearbeiten Sie noch die Ausgangsdaten in einem Tabellenprogramm - nicht jede Visualisierung lässt sich mit jedem Datensatz sinnvoll anlegen."
+
+#: views/contents.php:255
+msgid "Click next and you see the options for visualization"
+msgstr "Welche Visualisierung eignet sich hier?\vZum Beta-Start von Datawrapper haben wir uns auf fünf Varianten beschränkt. Wir wollen das Angebot ausbauen, wenn Sie Design oder Programmierkenntnisse haben und dabei helfen wollen - bitte melden."
+
+#: views/contents.php:258
+msgid "Still on this screen you have options to add a description, a link to the source, etc."
+msgstr "Sie können jetzt oben eine Überschrift, eine Beschreibung sowie Links und Quellenhinweise hinzufügen."
+
+#: views/contents.php:261
+msgid "Click next, check the visualization, copy the embed code and off you go.  "
+msgstr "Klicken Sie ein letztes Mal - fertig. Jetzt den Einbettungs-Code kopieren und in ein Publikationssystem einbetten. Fertig. "
+
+#: views/contents.php:265
+#, php-format
+msgid "Datawrapper has some other interesting functions, which you can experience %sin our tutorial%s."
+msgstr "Datawrapper hat einige interessante Zusatzfunktionen (z.B. Generierung eines Bildgrafik, Option zum Download der Daten). Mehr erfahren Sie %sin unserem Tutorial%s."
+
+#: views/contents.php:267
+msgid "On to the tutorial "
+msgstr "Weiter zum Tutorial"
+
+#: views/contents.php:275
+msgid "Do not show again on start-up."
+msgstr "Nicht mehr anzeigen."
+
+#: views/contents.php:276
+msgid "This quick tutorial will not be shown again."
+msgstr "Der Schnellstart wird nicht mehr angezeigt werden."
+
+#: views/embed.php:7
+msgid "A chart created by Data Story"
+msgstr "Visualisierung von DataStory kreirt"
+
+#: views/embed.php:129
+msgid "Link"
+msgstr "Link"
+
+#: views/embed.php:136
+msgid "Export data"
+msgstr "Daten runterladen"
+
+#: views/embed.php:139
+#, php-format
+msgid "Chart created with %sDatawrapper%s."
+msgstr "Grafik erstellt mit %sDatawrapper%s."
+
+#: views/embed.php:145
+msgid "Page cannot be displayed."
+msgstr "Die Seite könnte nicht angezeigt werden."
+
+#: views/footer.php:3
+msgid "ABZV"
+msgstr "ABZV"
+
+#: views/footer.php:5
+msgid "About Datawrapper"
+msgstr "Über Datawrapper"
+
+#: views/footer.php:9
+msgid "Terms of Use"
+msgstr "Nutzungsbedingungen"
+
+#: views/footer.php:15
+msgid "Tutorial"
+msgstr "Anleitung"
+
+#: views/footer.php:17
+msgid "Install"
+msgstr "Installation"
+
+#: views/footer.php:19
+msgid "Fork me on GitHub!"
+msgstr "GitHub"
+
+#: views/header.php:17
+msgid "Language set to "
+msgstr "Sprache is jetzt"
+
+#: views/header.php:25
+msgid "Language is the same as current language."
+msgstr "Sprache wurde nicht verändert"
+
+#: views/header.php:32
+msgid "Could not change language."
+msgstr "Sprache könnte nicht verändert."
+
+#: views/header.php:100
+msgid "my data"
+msgstr "meine Charts"
+
+#: views/header.php:104
+msgid "Log out"
+msgstr "Ausloggen."
+
+#: views/header.php:108
+#, php-format
+msgid "Welcome, %s!"
+msgstr "Willkommen, %s!"
+
+#: views/input.php:28
+msgid "Paste data here"
+msgstr "Daten hier einfügen"
+
+#: views/input.php:33
+msgid "Try Datawrapper with some sample data:"
+msgstr "Datawrapper mit Beispieldaten ausprobieren"
+
+#: views/input.php:36
+msgid "2-dimensional bar chart"
+msgstr "Multiple Säulen"
+
+#: views/input.php:39
+#: visualizations/config.json.php:90
+msgid "Responsive table"
+msgstr "Tabelle, variabel"
+
+#: views/login.php:105
+msgid "An e-mail has been sent. Please check your mailbox and follow instructions to reset your password."
+msgstr "Eine E-Mail wurde abgeschickt. Bitte überprüfen Sie Ihre Mailbox und folgen Sie den Anweisungen zum Zurücksetzen des Kennworts."
+
+#: views/login.php:117
+#: views/login.php:174
+msgid "Please enter a valid email address."
+msgstr "Bitten geben Sie eine gültige E-Mail-Addresse ein."
+
+#: views/login.php:146
+#: views/login.php:195
+#: views/login.php:265
+#: views/login.php:289
+#: views/login.php:290
+#: views/login.php:328
+#: views/login.php:329
+msgid "Password"
+msgstr "Kennwort"
+
+#: views/login.php:157
+msgid "Thanks for signing up! You just need to verify your e-mail address (be sure to check your spam filter). If you receive no confirmatory e-mail, please alert us at contact@Datawrapper.de"
+msgstr "Vielen Dank für Ihre Anmeldung! Sie müssen nur Ihre E-Mail-Adresse überprüfen (achten Sie darauf, Ihren Spam-Filter zu prüfen). Wenn Sie keine Bestätigungs-E-Mail erhalten, bitte informieren Sie uns an contact@datawrapper.de"
+
+#: views/login.php:167
+msgid "Please agree to the Terms of Use."
+msgstr "Bitte akzeptieren Sie die Nutzungsbedingungen an."
+
+#: views/login.php:170
+#: views/login.php:215
+msgid "Passwords do not match."
+msgstr "Kennwörter stimmen nicht überein."
+
+#: views/login.php:204
+msgid "Password changed. You can now login."
+msgstr "Kennwort geändert. Sie können sich jetzt anmelden."
+
+#: views/login.php:235
+#: views/screens.php:190
+#: views/vis_list.php:96
+msgid "Errors are displayed here"
+msgstr "Fehler werden hier angezeigt."
+
+#: views/login.php:244
+#, php-format
+msgid "Datawrapper is a project by %sABZV%s%sa German training institution for newspaper journalists."
+msgstr "Datawrapper ist ein Projekt der %sABZV%s%s- Bildungswerk der Zeitungen - "
+
+#: views/login.php:246
+msgid "Open Source Data Visualization"
+msgstr "Open Source Datenvisualisierung"
+
+#: views/login.php:249
+msgid "Main features:"
+msgstr "Wesentliche Funktionen: "
+
+#: views/login.php:251
+msgid "Simple: Create and embed charts in minutes"
+msgstr "Einfach: Mit wenigen Klicks zur Visualisierung"
+
+#: views/login.php:252
+msgid "Open Source: Download and install"
+msgstr "Opensource: Runterladen und installieren"
+
+#: views/login.php:253
+msgid "CSS: Change the CSS, add your logo"
+msgstr "CSS: Design beliebig anpassen"
+
+#: views/login.php:254
+msgid "Developers: Add new chart types"
+msgstr "Entwickler: Erweiterung durch HTML5 Charts möglich"
+
+#: views/login.php:255
+msgid "Non-proﬁt: This is and will stay free to use"
+msgstr "Non-profit: Dieses Angebot ist und bleibt kostenfrei"
+
+#: views/login.php:257
+msgid "Why this approach? See our Motivations"
+msgstr "Mehr zum Hintergrund: Datawrapper Ziele und Funktionen"
+
+#: views/login.php:263
+msgid "Login for registered users:"
+msgstr "Login für registrierte Nutzer"
+
+#: views/login.php:264
+#: views/login.php:311
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: views/login.php:266
+msgid "Forgot your password?"
+msgstr "Kennwort vergessen?"
+
+#: views/login.php:267
+msgid "Login"
+msgstr "Einloggen"
+
+#: views/login.php:269
+msgid "First time user? Register here."
+msgstr "Neuer Nutzer? Bitte zuerst registrieren."
+
+#: views/login.php:272
+#: views/login.php:302
+msgid "Resources to get started:"
+msgstr "Anleitungen und technische Informationen:"
+
+#: views/login.php:273
+#: views/login.php:303
+msgid "Installation guide"
+msgstr "Installationsleitfaden"
+
+#: views/login.php:282
+msgid "Create an account on Datawrapper:"
+msgstr "Kostenlos anmelden:"
+
+#: views/login.php:283
+msgid "Enter your e-mail address"
+msgstr "E-Mail-Addresse"
+
+#: views/login.php:284
+msgid "email@provider.tld"
+msgstr "email@provider.tld"
+
+#: views/login.php:288
+msgid "Enter password twice"
+msgstr "Bitte geben Sie Ihr Kennwort zweimal ein."
+
+#: views/login.php:294
+msgid "I agree to the Terms of Use"
+msgstr "Ich akzeptiere die Nutzungsbedingungen."
+
+#: views/login.php:298
+msgid "Sign up"
+msgstr "Registrieren"
+
+#: views/login.php:298
+msgid "Log in"
+msgstr "Einloggen"
+
+#: views/login.php:309
+msgid "Enter your e-mail address to reset your password."
+msgstr "Geben Sie Ihre E-Mail-Adresse ein, um das Kennwort zurückzusetzen."
+
+#: views/login.php:315
+msgid "Reset password"
+msgstr "Kennwort zurücksetzen"
+
+#: views/login.php:327
+msgid "Enter your new password twice"
+msgstr "Bitte geben Sie Ihr neues Kennwort zweimal ein."
+
+#: views/login.php:333
+msgid "Change password"
+msgstr "Kennwort ändern"
+
+#: views/publish.php:132
+msgid "Publish and embed!"
+msgstr "Veröffentlichen und embedden"
+
+#: views/publish.php:134
+msgid "Direct access URL"
+msgstr "Link zu diesem Chart"
+
+#: views/publish.php:137
+msgid "Embed code"
+msgstr "Einbettungscode"
+
+#: views/publish.php:140
+msgid "Embed width"
+msgstr "Einbettungsbreite"
+
+#: views/publish.php:142
+msgid "Embed height"
+msgstr "Einbettungshöhe"
+
+#: views/publish.php:144
+msgid "Keep proportions"
+msgstr "Größenverhältnis erhalten"
+
+#: views/screens.php:198
+msgid "1. Input data"
+msgstr "1. Daten einfügen"
+
+#: views/screens.php:201
+msgid "2. Check data"
+msgstr "2. Daten prüfen"
+
+#: views/screens.php:204
+msgid "3. Visualize"
+msgstr "3. Visualisierung"
+
+#: views/screens.php:207
+msgid "4. Publish"
+msgstr "4. Veröffentlichen"
+
+#: views/screens.php:213
+msgid "Next"
+msgstr "Next"
+
+#: views/screens.php:217
+msgid "New"
+msgstr "Neu"
+
+#: views/screens.php:222
+msgid "Prev"
+msgstr "Prev"
+
+#: views/vis.chooser.php:30
+msgid "Useful resources"
+msgstr "Links zur Visualisierung"
+
+#: views/vis.chooser.php:41
+msgid "Browser support"
+msgstr "Browserunterstützung"
+
+#: views/vis.chooser.php:64
+#: views/visualize_legacy.php:269
+msgid "Visualization type"
+msgstr "Visualisierungsart"
+
+#: views/visualize.php:37
+#: views/visualize_legacy.php:17
+msgid "Title"
+msgstr "Titel"
+
+#: views/visualize.php:40
+#: views/visualize.php:139
+#: views/visualize.php:221
+#: views/visualize_legacy.php:20
+#: views/visualize_legacy.php:88
+#: views/visualize_legacy.php:265
+msgid "Subtitle"
+msgstr "Untertitel"
+
+#: views/visualize.php:150
+#: views/visualize.php:245
+#: views/visualize_legacy.php:99
+#: views/visualize_legacy.php:293
+msgid "Source URL"
+msgstr "URL der Quelle"
+
+#: views/visualize.php:154
+#: views/visualize_legacy.php:103
+msgid "Source URL must begin with 'http://'"
+msgstr "URL der Quelle sollte mit 'http://' beginnen"
+
+#: views/visualize.php:161
+#: views/visualize.php:241
+#: views/visualize_legacy.php:110
+#: views/visualize_legacy.php:289
+msgid "Source"
+msgstr "Quelle"
+
+#: views/visualize.php:169
+#: views/visualize.php:249
+#: views/visualize_legacy.php:118
+#: views/visualize_legacy.php:297
+msgid "Chart description"
+msgstr "Beschreibung des Charts"
+
+#: views/visualize.php:211
+#: views/visualize_legacy.php:255
+msgid "Build your visualization."
+msgstr "Visualisierung fertig stellen"
+
+#: views/visualize.php:218
+#: views/visualize_legacy.php:262
+msgid "Title (required)"
+msgstr "Titel (erforderlich)"
+
+#: views/visualize.php:237
+#: views/visualize_legacy.php:285
+msgid "Vertical axis title (required)"
+msgstr "Titel der Hochachse (erforderlich)"
+
+#: views/vis_list.php:105
+msgid "Your visualizations"
+msgstr "Ihre Visualisierung"
+
+#: visualizations/config.json.php:54
+msgid "Vertical bar chart"
+msgstr "Vertikale Säulen"
+
+#: visualizations/config.json.php:60
+msgid "Horizontal bar chart"
+msgstr "Horizontale Säulen"
+
+#: visualizations/config.json.php:76
+#: visualizations/config.json.php:85
+msgid "Understanding Pie Charts"
+msgstr "Tortendiagramme erstellen (Englisch)"
+
+#: visualizations/config.json.php:81
+msgid "Simplified pie chart"
+msgstr "Vereinfachte Tortengrafik"
+
+#~ msgid "This is a tool to let journalists work with data every day."
+#~ msgstr "Open Source: Kann auf eigenem Server installiert werden"
+
+#~ msgid "Chart created using"
+#~ msgstr "Chart erstellt mit"
+
+#~ msgid "a project by"
+#~ msgstr "ein Projekt der"
+
+#~ msgid "A project by"
+#~ msgstr "Ein Projekt der"
+
+#~ msgid ""
+#~ "Sample data: unemployment among the population age 25 and over in 6 "
+#~ "European metropolis. Source: Eurostat."
+#~ msgstr ""
+#~ "Probedaten: Arbeitslosenquote bei Erwerbstätigen über 25 in 6 "
+#~ "Europäischen Metropolen. Quelle: Eurostat."
+
+#~ msgid ""
+#~ "DataWrapper helps journalists build compelling visualizations in just a "
+#~ "few clicks. It uses the latest, most powerful JavaScript libraries but "
+#~ "requires no coding at all."
+#~ msgstr ""
+#~ "DataWrapper unterstützt Journalisten bei der Erstellung einer "
+#~ "Visualisierung. Mit wenigen Klicks können Daten in einen Chart verwandelt "
+#~ "werden und danach überall eingebettet werden."
+
+#~ msgid "Just give it a try "
+#~ msgstr "Einfach ausprobieren "
+
+#~ msgid "or read our quick tutorial."
+#~ msgstr "oder unsere kurze Anleitung lesen."
+
+#~ msgid "The project is lead and maintained by ABZV."
+#~ msgstr "Ein Projekt der ABZV."
+
+#~ msgid "Password forgotten?"
+#~ msgstr "Passwort vergessen?"
+
+#~ msgid "This will normalize the data."
+#~ msgstr ""
+#~ "Dadurch wird die Tabelle zugleich bereinigt (Separatoren, Punkte, "
+#~ "Kommata).   "
+
+#~ msgid ""
+#~ "If it looks very funny, you might have to go back and copy it again.  "
+#~ msgstr ""
+#~ "Hier sehen Sie, wie die Visualisierung aussieht, sie können zwischen "
+#~ "verschiedenen Darstellungen wechseln. Wenn das Ergebnis seltsam oder "
+#~ "unverständlich aussieht, überprüfen Sie noch einmal die Ausgangsdaten - "
+#~ "nicht jede Visualisierung lässt sich mit jedem Datensatz sinnvoll "
+#~ "anlegen.  "
+
+#~ msgid ""
+#~ "For this beta release we have limited the options to five. More to come "
+#~ "and if you are a coder/designer contact us if you can help here."
+#~ msgstr ""
+#~ "Zum Start von DataWrapper haben wir auf fünf Formen beschränkt. Wir "
+#~ "wollen das Angebot ausbauen, wenn Sie Design oder Programmierkenntnisse "
+#~ "haben und dabei helfen wollen - bitte melden.  "
+
+#~ msgid "About ABZV"
+#~ msgstr "Über ABZV"
+
+#~ msgid "No data was input."
+#~ msgstr "Kein Datei würde eingegeben."
+
+#~ msgid "Chart created using DataStory, a project by ABZV."
+#~ msgstr "Dies Chart wurde mit DataStory hergestellt."
+
+#~ msgid "Thanks for signing up! You just need to verify your e-mail address."
+#~ msgstr ""
+#~ "Vielen Dank für Ihre Anmeldung! Bitte checken Sie jetzt Ihre Mailbox um "
+#~ "Ihre E-Mail Addresse zu verifizieren."
+
+#~ msgid ""
+#~ "Be nice. You are authorized to use the service to produce visualizations "
+#~ "that will be published on the web. You understand that you may not share "
+#~ "your account nor indulge in any unlawful activity."
+#~ msgstr ""
+#~ "Sei nett. Sie sind berechtigt, den Service zu nutzen, um "
+#~ "Visualisierungen, die im Web veröffentlicht werden, zu produzieren. Sie "
+#~ "verstehen, dass Sie nicht Ihre Benutzerdaten mitteilen können, und dass "
+#~ "der Service nicht um Leitung gesetzwidriger Aktivitäten benutzen kann."
+
+#~ msgid "."
+#~ msgstr "."
+
+#~ msgid "Data Story"
+#~ msgstr "Data Story, ein Projekt von ABZV"
+
+#~ msgid "Welcome to DataStory"
+#~ msgstr "Wilkommen!"

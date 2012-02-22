@@ -1,0 +1,6 @@
+	Share of income
+1st quintile	3,76
+2nd quintile	10,72
+3rd quintile	15,9
+4th quintile	22,62
+5th quintile	47

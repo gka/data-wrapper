@@ -1,0 +1,6 @@
+	Gini coef.
+Sweden	0,23
+Sachsen	0,24
+Germany	0,29
+Hamburg	0,32
+Johannesburg	0,73

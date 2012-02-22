@@ -1,0 +1,46 @@
+/*********************************/
+/*        vis_list.scss          */
+/* Vis_list styles for DataStory */
+/*********************************/
+/* line 56, ../sass/vis_list.scss */
+#vis_list {
+  width: 675px;
+  float: left;
+  padding: 15px 0 20px 0;
+  margin-right: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #e5e5e5;
+  font-size: 1.2em;
+  font-weight: normal;
+  font-family: Georgia, Serif;
+  color: #555555;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  border-radius: 8px;
+}
+/* line 66, ../sass/vis_list.scss */
+#vis_list h1 {
+  padding-left: 56.25px;
+  font-size: 1.2em;
+  font-weight: normal;
+  font-family: Georgia, Serif;
+  color: #555555;
+}
+/* line 71, ../sass/vis_list.scss */
+#vis_list h2 {
+  font-family: Arial, Helvetica, Sans-serif;
+  font-size: 0.7em;
+  font-weight: bold;
+  padding-left: 56.25px;
+  margin: 15px 0 0 0;
+}
+/* line 79, ../sass/vis_list.scss */
+#vis_list p {
+  font-family: Arial, Helvetica, Sans-serif;
+  font-size: 0.5em;
+  margin: 0 0 0 0;
+  padding: 2px 56.25px;
+}
