@@ -5,12 +5,12 @@
 /***************/
 /*   General    /
 /***************/
-/* line 67, ../sass/general.scss */
+/* line 68, ../sass/general.scss */
 html {
   height: 100%;
 }
 
-/* line 71, ../sass/general.scss */
+/* line 72, ../sass/general.scss */
 body {
   padding: 0;
   margin: 0;
@@ -19,7 +19,7 @@ body {
   height: 100%;
 }
 
-/* line 79, ../sass/general.scss */
+/* line 80, ../sass/general.scss */
 #black_veil {
   display: none;
   width: 100%;
@@ -33,7 +33,7 @@ body {
   left: 0;
 }
 
-/* line 94, ../sass/general.scss */
+/* line 95, ../sass/general.scss */
 #loader {
   position: fixed;
   z-index: 5;
@@ -42,7 +42,7 @@ body {
   left: 45%;
 }
 
-/* line 102, ../sass/general.scss */
+/* line 103, ../sass/general.scss */
 .clear {
   clear: both;
 }
@@ -50,7 +50,7 @@ body {
 /***************/
 /*   Container  /
 /***************/
-/* line 112, ../sass/general.scss */
+/* line 113, ../sass/general.scss */
 #container {
   width: 960px;
   margin: 0 auto;
@@ -65,17 +65,17 @@ body {
   -o-box-shadow: #7f7f7f 0px 0px 10px;
   box-shadow: #7f7f7f 0px 0px 10px;
 }
-/* line 127, ../sass/general.scss */
+/* line 128, ../sass/general.scss */
 #container a {
   text-decoration: underline;
   color: black;
 }
-/* line 130, ../sass/general.scss */
+/* line 131, ../sass/general.scss */
 #container a:hover {
   text-decoration: underline;
 }
 
-/* line 134, ../sass/general.scss */
+/* line 135, ../sass/general.scss */
 #screen_container {
   min-height: 330px;
   position: relative;
@@ -88,7 +88,7 @@ body {
 /***************/
 /*    Header    /
 /***************/
-/* line 151, ../sass/general.scss */
+/* line 152, ../sass/general.scss */
 #header {
   width: 960px;
   position: relative;
@@ -97,7 +97,7 @@ body {
   height: 90px;
 }
 
-/* line 159, ../sass/general.scss */
+/* line 160, ../sass/general.scss */
 #logo {
   position: absolute;
   z-index: 0;
@@ -110,7 +110,7 @@ body {
   cursor: pointer;
 }
 
-/* line 171, ../sass/general.scss */
+/* line 172, ../sass/general.scss */
 #navbar {
   width: 900px;
   margin-right: 60px;
@@ -123,43 +123,43 @@ body {
   text-transform: uppercase;
   font-size: 0.6em;
 }
-/* line 183, ../sass/general.scss */
+/* line 184, ../sass/general.scss */
 #navbar #promo {
   width: 264px;
   float: right;
   text-align: right;
   margin-top: 15px;
 }
-/* line 190, ../sass/general.scss */
+/* line 191, ../sass/general.scss */
 #navbar #languages {
   width: 180px;
   float: right;
   margin-top: 15px;
   text-align: right;
 }
-/* line 196, ../sass/general.scss */
+/* line 197, ../sass/general.scss */
 #navbar #languages .language {
   margin: 0;
   display: inline;
   color: #606060;
   cursor: pointer;
 }
-/* line 201, ../sass/general.scss */
+/* line 202, ../sass/general.scss */
 #navbar #languages .language:hover {
   text-decoration: underline;
 }
-/* line 205, ../sass/general.scss */
+/* line 206, ../sass/general.scss */
 #navbar #loggedin {
   float: left;
   margin: 0px 0 0 60px;
   font-size: 0.9em;
 }
-/* line 211, ../sass/general.scss */
+/* line 212, ../sass/general.scss */
 #navbar #loggedin #my_vis {
   margin: 15px 5px 0 0;
   float: right;
 }
-/* line 216, ../sass/general.scss */
+/* line 217, ../sass/general.scss */
 #navbar #loggedin #my_vis a {
   cursor: pointer;
   color: white;
@@ -173,25 +173,25 @@ body {
   border-radius: 2px;
   padding: 0 3px;
 }
-/* line 223, ../sass/general.scss */
+/* line 224, ../sass/general.scss */
 #navbar #loggedin #my_vis a:hover {
   color: #5e9dcd;
   background-color: white;
 }
-/* line 226, ../sass/general.scss */
+/* line 227, ../sass/general.scss */
 #navbar #loggedin #loggedas {
   float: right;
   margin: 15px 5px 0 0;
   color: #555555;
 }
-/* line 232, ../sass/general.scss */
+/* line 233, ../sass/general.scss */
 #navbar #loggedin #logout {
   margin: 15px 5px 0 0;
   float: right;
   cursor: pointer;
   color: #5e9dcd;
 }
-/* line 237, ../sass/general.scss */
+/* line 238, ../sass/general.scss */
 #navbar #loggedin #logout:hover {
   color: #555555;
 }
@@ -199,7 +199,7 @@ body {
 /***************/
 /*   Buttons   */
 /***************/
-/* line 249, ../sass/general.scss */
+/* line 250, ../sass/general.scss */
 .button {
   cursor: pointer;
   background: white;
@@ -223,13 +223,13 @@ body {
   text-shadow: rgba(255, 255, 255, 0.2) 1px 1px 0, rgba(255, 255, 255, 0.2) 1px 1px 0, rgba(255, 255, 255, 0.2) 1px 1px 0;
 }
 
-/* line 266, ../sass/general.scss */
+/* line 267, ../sass/general.scss */
 .nav {
   font-size: 1.2em;
   width: 108px;
 }
 
-/* line 272, ../sass/general.scss */
+/* line 273, ../sass/general.scss */
 #button_next, #button_prev {
   cursor: pointer;
   position: absolute;
@@ -238,11 +238,11 @@ body {
   text-align: center;
 }
 
-/* line 280, ../sass/general.scss */
+/* line 281, ../sass/general.scss */
 #button_next {
   right: -95px;
 }
-/* line 283, ../sass/general.scss */
+/* line 284, ../sass/general.scss */
 #button_next #next, #button_next #new_chart {
   -moz-border-radius-topright: 25px;
   -webkit-border-top-right-radius: 25px;
@@ -261,11 +261,11 @@ body {
   border-left: none;
 }
 
-/* line 291, ../sass/general.scss */
+/* line 292, ../sass/general.scss */
 #button_prev {
   left: -95px;
 }
-/* line 293, ../sass/general.scss */
+/* line 294, ../sass/general.scss */
 #button_prev #prev {
   -moz-border-radius-topleft: 25px;
   -webkit-border-top-left-radius: 25px;
@@ -287,10 +287,9 @@ body {
 /***************/
 /* Breadcrumbs */
 /***************/
-/* line 320, ../sass/general.scss */
+/* line 321, ../sass/general.scss */
 #breadcrumbs {
   height: 30px;
-  width: 960px;
   text-align: center;
   margin: 0 60px 15px 60px;
   width: 840px;
@@ -372,19 +371,49 @@ body {
   border-radius: 6px;
 }
 
+/******************/
+/* Warning edit   */
+/******************/
+/* line 375, ../sass/general.scss */
+#warning_edit {
+  color: #000;
+  font-weight: normal;
+  background: #ab2b2e;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ab2b2e), color-stop(100%, #892225));
+  background-image: -webkit-linear-gradient(#ab2b2e, #892225);
+  background-image: -moz-linear-gradient(#ab2b2e, #892225);
+  background-image: -o-linear-gradient(#ab2b2e, #892225);
+  background-image: -ms-linear-gradient(#ab2b2e, #892225);
+  background-image: linear-gradient(#ab2b2e, #892225);
+  font-size: 12px;
+  padding: 5px 10px;
+  margin: 10px 60px 20px 60px;
+  width: 821px;
+  z-index: 2;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+
 /****************/
 /* Input screen */
 /****************/
-/* line 377, ../sass/general.scss */
+/* line 404, ../sass/general.scss */
 #input {
   position: relative;
   z-index: 3;
 }
-/* line 382, ../sass/general.scss */
+/* line 409, ../sass/general.scss */
 #input #explainer {
   font-size: 1.2em;
 }
-/* line 385, ../sass/general.scss */
+/* line 412, ../sass/general.scss */
 #input #input_data {
   width: 818px;
   color: #555555;
@@ -398,17 +427,17 @@ body {
   padding: 10px;
 }
 
-/* line 394, ../sass/general.scss */
+/* line 421, ../sass/general.scss */
 #sample_data {
   font-size: 0.8em;
   width: 70%;
 }
-/* line 399, ../sass/general.scss */
+/* line 426, ../sass/general.scss */
 #sample_data ul {
   margin: 0;
   padding: 0;
 }
-/* line 404, ../sass/general.scss */
+/* line 431, ../sass/general.scss */
 #sample_data li {
   list-style: none;
   cursor: pointer;
@@ -416,7 +445,7 @@ body {
   margin: 0 1%;
   text-indent: -1%;
 }
-/* line 410, ../sass/general.scss */
+/* line 437, ../sass/general.scss */
 #sample_data li:hover {
   text-decoration: none;
 }
@@ -424,42 +453,42 @@ body {
 /****************/
 /* Check screen */
 /****************/
-/* line 421, ../sass/general.scss */
+/* line 448, ../sass/general.scss */
 #check #explainer {
   font-size: 1.2em;
 }
-/* line 425, ../sass/general.scss */
+/* line 452, ../sass/general.scss */
 #check #explainer #sub_explainer {
   font-size: 0.8em;
 }
-/* line 429, ../sass/general.scss */
+/* line 456, ../sass/general.scss */
 #check #explainer #sub_explainer p {
   margin: 5px 10px;
 }
-/* line 433, ../sass/general.scss */
+/* line 460, ../sass/general.scss */
 #check #explainer #sub_explainer .transpose {
   font-size: 0.8em;
   width: 240px;
 }
-/* line 440, ../sass/general.scss */
+/* line 467, ../sass/general.scss */
 #check table {
   margin-top: 10px;
   width: 840px;
   padding: 10px;
   font-size: 0.8em;
 }
-/* line 447, ../sass/general.scss */
+/* line 474, ../sass/general.scss */
 #check td {
   background-color: #f2f2f2;
   text-align: center;
   width: 120px;
 }
-/* line 453, ../sass/general.scss */
+/* line 480, ../sass/general.scss */
 #check .header_cell {
   font-weight: bold;
   background-color: #5e9dcd;
 }
-/* line 458, ../sass/general.scss */
+/* line 485, ../sass/general.scss */
 #check .empty_cell {
   background-color: white;
 }
@@ -467,7 +496,7 @@ body {
 /********************/
 /* Visualize screen */
 /********************/
-/* line 471, ../sass/general.scss */
+/* line 498, ../sass/general.scss */
 #visualize #chart {
   width: 840px;
   height: 300px;
@@ -475,17 +504,17 @@ body {
   padding: 0;
   overflow: hidden;
 }
-/* line 479, ../sass/general.scss */
+/* line 506, ../sass/general.scss */
 #visualize #explainer {
   font-size: 1.2em;
 }
-/* line 483, ../sass/general.scss */
+/* line 510, ../sass/general.scss */
 #visualize #chart_customization {
   width: 840px;
   height: 90px;
   padding: 0;
 }
-/* line 489, ../sass/general.scss */
+/* line 516, ../sass/general.scss */
 #visualize #chart_customization input, #visualize #chart_customization select {
   width: 240px;
   font-size: 1em;
@@ -498,26 +527,26 @@ body {
   border: 1px solid #7f7f7f;
   height: 25px;
 }
-/* line 495, ../sass/general.scss */
+/* line 522, ../sass/general.scss */
 #visualize #chart_customization input {
   padding: 0 10px;
 }
-/* line 498, ../sass/general.scss */
+/* line 525, ../sass/general.scss */
 #visualize #chart_customization select {
   width: 260px;
   padding: 4px 0 0 4px;
 }
-/* line 503, ../sass/general.scss */
+/* line 530, ../sass/general.scss */
 #visualize #chart_customization .desc {
   width: 529px;
 }
-/* line 507, ../sass/general.scss */
+/* line 534, ../sass/general.scss */
 #visualize #chart_customization .inactive {
   background-color: #f2f2f2;
   color: white;
   border: #7f7f7f;
 }
-/* line 514, ../sass/general.scss */
+/* line 541, ../sass/general.scss */
 #visualize #chart_info {
   position: absolute;
   right: -25px;
@@ -527,7 +556,7 @@ body {
   background-image: url("../../images/question_mark.png");
   cursor: pointer;
 }
-/* line 527, ../sass/general.scss */
+/* line 554, ../sass/general.scss */
 #visualize #chart_desc_box {
   position: absolute;
   top: 58px;
@@ -550,12 +579,12 @@ body {
   padding: 5px;
   display: none;
 }
-/* line 544, ../sass/general.scss */
+/* line 571, ../sass/general.scss */
 #visualize #chart_desc_box img {
   width: 15px;
   height: 15px;
 }
-/* line 550, ../sass/general.scss */
+/* line 577, ../sass/general.scss */
 #visualize .chart_customizator {
   float: left;
   font-size: 0.9em;
@@ -567,15 +596,15 @@ body {
 /********************/
 /*  Publish screen  */
 /********************/
-/* line 568, ../sass/general.scss */
+/* line 595, ../sass/general.scss */
 #publish #explainer {
   font-size: 1.2em;
 }
-/* line 572, ../sass/general.scss */
+/* line 599, ../sass/general.scss */
 #publish p {
   margin: 8px 0 2px 0;
 }
-/* line 576, ../sass/general.scss */
+/* line 603, ../sass/general.scss */
 #publish #direct_link_url {
   width: 480px;
   margin: 5px auto;
@@ -590,7 +619,7 @@ body {
   border: 1px solid #7f7f7f;
   margin-bottom: 5px;
 }
-/* line 585, ../sass/general.scss */
+/* line 612, ../sass/general.scss */
 #publish #iframe_code {
   position: relative;
   z-index: 3;
@@ -607,12 +636,12 @@ body {
   box-shadow: inset 0 0 1px 0.5px "#999";
   border: 1px solid #7f7f7f;
 }
-/* line 596, ../sass/general.scss */
+/* line 623, ../sass/general.scss */
 #publish .embed_customization {
   font-size: 0.9em;
   margin-bottom: 5px;
 }
-/* line 601, ../sass/general.scss */
+/* line 628, ../sass/general.scss */
 #publish .embed_customizator {
   position: relative;
   z-index: 3;
@@ -625,7 +654,7 @@ body {
   box-shadow: inset 0 0 1px 0.5px "#999";
   border: 1px solid #7f7f7f;
 }
-/* line 608, ../sass/general.scss */
+/* line 635, ../sass/general.scss */
 #publish #embed {
   margin: 0 auto;
   background-color: #fff;
@@ -634,7 +663,7 @@ body {
 /************************************/
 /*              Popups              */
 /************************************/
-/* line 620, ../sass/general.scss */
+/* line 647, ../sass/general.scss */
 .popup {
   padding: 20px;
   margin: 0;
@@ -646,21 +675,21 @@ body {
   color: #444444;
   font-size: 0.8em;
 }
-/* line 631, ../sass/general.scss */
+/* line 658, ../sass/general.scss */
 .popup li {
   margin-top: 1.1em;
 }
-/* line 635, ../sass/general.scss */
+/* line 662, ../sass/general.scss */
 .popup a {
   color: #444444;
   text-decoration: underline;
 }
-/* line 638, ../sass/general.scss */
+/* line 665, ../sass/general.scss */
 .popup a:hover {
   text-decoration: none;
 }
 
-/* line 643, ../sass/general.scss */
+/* line 670, ../sass/general.scss */
 #quickstart_noshow {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -678,7 +707,7 @@ body {
 /************************************/
 /*              Footer              */
 /************************************/
-/* line 656, ../sass/general.scss */
+/* line 683, ../sass/general.scss */
 #footer {
   padding: 20px 60px;
   height: 50px;
@@ -689,22 +718,22 @@ body {
   clear: both;
 }
 
-/* line 668, ../sass/general.scss */
+/* line 695, ../sass/general.scss */
 #footer .separator, #promo .separator {
   color: #555555;
 }
-/* line 672, ../sass/general.scss */
+/* line 699, ../sass/general.scss */
 #footer a, #promo a {
   color: #555555;
   font-size: 0.9em;
 }
-/* line 675, ../sass/general.scss */
+/* line 702, ../sass/general.scss */
 #footer a:hover, #promo a:hover {
   text-decoration: none;
 }
 
 /**** Tutorial ****/
-/* line 681, ../sass/general.scss */
+/* line 708, ../sass/general.scss */
 .button_tutorial {
   margin-left: 360px;
   cursor: pointer;
@@ -729,24 +758,24 @@ body {
   text-shadow: rgba(255, 255, 255, 0.2) 1px 1px 0, rgba(255, 255, 255, 0.2) 1px 1px 0, rgba(255, 255, 255, 0.2) 1px 1px 0;
 }
 
-/* line 698, ../sass/general.scss */
+/* line 725, ../sass/general.scss */
 #tutorial {
   min-height: 450px;
 }
-/* line 702, ../sass/general.scss */
+/* line 729, ../sass/general.scss */
 #tutorial h1 {
   font-size: 1.5em;
 }
-/* line 706, ../sass/general.scss */
+/* line 733, ../sass/general.scss */
 #tutorial a {
   text-decoration: underline;
   color: black;
 }
-/* line 709, ../sass/general.scss */
+/* line 736, ../sass/general.scss */
 #tutorial a:hover {
   text-decoration: underline;
 }
-/* line 713, ../sass/general.scss */
+/* line 740, ../sass/general.scss */
 #tutorial img {
   -moz-box-shadow: #7f7f7f 0px 0px 10px;
   -webkit-box-shadow: #7f7f7f 0px 0px 10px;
@@ -755,17 +784,17 @@ body {
   margin-left: 60px;
 }
 
-/* line 719, ../sass/general.scss */
+/* line 746, ../sass/general.scss */
 .tutorial_class {
   display: none;
 }
 
 /**** Login ****/
-/* line 725, ../sass/general.scss */
+/* line 752, ../sass/general.scss */
 #login, #signup, #reminder, #new_pwd {
   float: left;
 }
-/* line 729, ../sass/general.scss */
+/* line 756, ../sass/general.scss */
 #login .login, #signup .login, #reminder .login, #new_pwd .login {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -781,7 +810,7 @@ body {
   width: 96%;
   padding: 2px 7px;
 }
-/* line 744, ../sass/general.scss */
+/* line 771, ../sass/general.scss */
 #login #password_forgotten, #signup #password_forgotten, #reminder #password_forgotten, #new_pwd #password_forgotten {
   font-size: 0.7em;
   width: 100%;
@@ -789,12 +818,12 @@ body {
   cursor: pointer;
   text-decoration: underline;
 }
-/* line 750, ../sass/general.scss */
+/* line 777, ../sass/general.scss */
 #login #password_forgotten:hover, #signup #password_forgotten:hover, #reminder #password_forgotten:hover, #new_pwd #password_forgotten:hover {
   text-decoration: none;
 }
 
-/* line 755, ../sass/general.scss */
+/* line 782, ../sass/general.scss */
 #login, #about, #signup, #reminder, #new_pwd {
   width: 390px;
   height: 234px;
@@ -805,7 +834,7 @@ body {
   color: #fff;
 }
 
-/* line 765, ../sass/general.scss */
+/* line 792, ../sass/general.scss */
 #login_submit, #signup_submit, #show_login, #show_signup, #reminder_submit, #pwd_change_submit {
   font-size: 0.9em;
   line-height: 1.7em;
@@ -813,13 +842,13 @@ body {
   margin: 10px 0;
 }
 
-/* line 772, ../sass/general.scss */
+/* line 799, ../sass/general.scss */
 #login_submit {
   margin-top: -5px;
   margin-left: 0;
 }
 
-/* line 777, ../sass/general.scss */
+/* line 804, ../sass/general.scss */
 #show_signup {
   position: relative;
   margin: 2px 0;
@@ -839,26 +868,26 @@ body {
   text-decoration: underline;
 }
 
-/* line 791, ../sass/general.scss */
+/* line 818, ../sass/general.scss */
 #login, #signup {
   background-color: #335ea9;
   color: #fff;
 }
-/* line 795, ../sass/general.scss */
+/* line 822, ../sass/general.scss */
 #login a, #signup a {
   color: #fff;
 }
-/* line 797, ../sass/general.scss */
+/* line 824, ../sass/general.scss */
 #login a:hover, #signup a:hover {
   text-decoration: none;
 }
-/* line 800, ../sass/general.scss */
+/* line 827, ../sass/general.scss */
 #login h2, #signup h2 {
   font-size: 1.1em;
   font-weight: normal;
 }
 
-/* line 807, ../sass/general.scss */
+/* line 834, ../sass/general.scss */
 #additional_ressources {
   font-size: 0.9em;
   position: absolute;
@@ -871,36 +900,36 @@ body {
   padding: 10px;
   right: 0;
 }
-/* line 819, ../sass/general.scss */
+/* line 846, ../sass/general.scss */
 #additional_ressources a {
   color: #000;
 }
 
-/* line 825, ../sass/general.scss */
+/* line 852, ../sass/general.scss */
 #about {
   color: #fff;
   margin-right: 20px;
   background-color: #335ea9;
   font-weight: bold;
 }
-/* line 831, ../sass/general.scss */
+/* line 858, ../sass/general.scss */
 #about h2 {
   font-weight: normal;
   font-size: 1.1em;
   padding-right: 115px;
 }
-/* line 837, ../sass/general.scss */
+/* line 864, ../sass/general.scss */
 #about p, #about li {
   margin: 0 0 10px 0;
   padding: 0;
   font-size: 0.8em;
 }
-/* line 843, ../sass/general.scss */
+/* line 870, ../sass/general.scss */
 #about a {
   color: #fff;
 }
 
-/* line 848, ../sass/general.scss */
+/* line 875, ../sass/general.scss */
 .beta_logo {
   position: absolute;
   z-index: 1;
@@ -937,7 +966,7 @@ body {
   background-image: radial-gradient(#a3160d, #b94e63);
 }
 
-/* line 869, ../sass/general.scss */
+/* line 896, ../sass/general.scss */
 .close_signup {
   font-size: 0.6em;
   width: 100%;
@@ -945,17 +974,17 @@ body {
   color: #7f7f7f;
   cursor: pointer;
 }
-/* line 875, ../sass/general.scss */
+/* line 902, ../sass/general.scss */
 .close_signup:hover {
   text-decoration: underline;
 }
 
-/* line 878, ../sass/general.scss */
+/* line 905, ../sass/general.scss */
 #login, #reminder {
   display: none;
 }
 
-/* line 882, ../sass/general.scss */
+/* line 909, ../sass/general.scss */
 #verify, #reset_confirmation, #pwd_change_confirmation {
   width: 92%;
   display: none;
@@ -975,7 +1004,7 @@ body {
   font-size: 0.8em;
 }
 
-/* line 896, ../sass/general.scss */
+/* line 923, ../sass/general.scss */
 .login_bigtitle {
   color: #335ea9;
   font-weight: bolder;
@@ -984,7 +1013,7 @@ body {
   display: inline;
 }
 
-/* line 904, ../sass/general.scss */
+/* line 931, ../sass/general.scss */
 h1.login_title {
   color: black;
   margin: -4px 0 40px;
@@ -994,7 +1023,7 @@ h1.login_title {
   font-size: 1.5em;
 }
 
-/* line 913, ../sass/general.scss */
+/* line 940, ../sass/general.scss */
 #login_abzv {
   color: #333;
   float: right;
@@ -1002,16 +1031,16 @@ h1.login_title {
   font-size: 1em;
   margin-bottom: 0;
 }
-/* line 920, ../sass/general.scss */
+/* line 947, ../sass/general.scss */
 #login_abzv a {
   color: #333;
 }
-/* line 922, ../sass/general.scss */
+/* line 949, ../sass/general.scss */
 #login_abzv a:hover {
   text-decoration: none;
 }
 
-/* line 926, ../sass/general.scss */
+/* line 953, ../sass/general.scss */
 .divider {
   width: 100%;
   height: 20px;

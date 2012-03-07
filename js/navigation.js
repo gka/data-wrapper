@@ -54,42 +54,64 @@ function showSlide(next, current){
 }
 
 function dispatchNext(){
-	
-	var data = "";
-
-	data = $("#"+ currentSlide +"_data").val();
-
-    if (data == ""){
-        error("No data was input.");
-        return false;
-    }
 
     loader_show();
 
-	$.post("actions/"+currentSlide+".php", { data: data, chart_id: chart_id, action: "next" },
-   		function(data) {
-     		
-     		if (data != ""){
+    var post_opts;
 
-     			data = jQuery.parseJSON(data);
+    switch (currentSlide){
+        case "input":
+            
+            //checks that some data is present
 
-     			if (data.status == 200){
+            var data = "";
 
-     				//Updates the current working chart
-     				chart_id = data.chart_id;
-     				
-     				//Goes to the next slide
-     				showNext();
-     				
-     			}else{
-     				error(data.error);
-     			}
+            data = $("#"+ currentSlide +"_data").val();
 
-     		}else{
-     			error();
-     		}
+            if (data == ""){
+                error("No data was input.");
+                return false;
+            }
 
-     		
+            post_opts = { chart_id: chart_id, data: data, action: "setData" };
+            break;
+
+        case "check":
+            post_opts = { chart_id: chart_id, action: "none" };
+            break;
+
+        case "visualize":
+            post_opts = { chart_id: chart_id, opts: JSON.stringify(options), action: "storeVis" };
+            break;
+
+        case "publish":
+            post_opts = { chart_id: chart_id, action: "getData" };
+            break;
+    }
+
+    $.post("actions/charts.php", post_opts,
+    function(data) {
+        
+        if (data != ""){
+
+            data = jQuery.parseJSON(data);
+
+            if (data.status == 200){
+
+                //Updates the current working chart
+                chart_id = data.chart_id;
+                
+                //Goes to the next slide
+                showNext();
+                
+            }else{
+                error(data.error);
+            }
+
+        }else{
+            error();
+        }
+
     });
 }
 

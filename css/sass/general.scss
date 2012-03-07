@@ -8,6 +8,7 @@
 @import "compass/utilities";
 
 $error-color : #ff8;
+$warning-color: #AB2B2E;
 
 $color-on : #5E9DCD;
 $color-blue:#335EA9;
@@ -320,7 +321,6 @@ $breadcrumbs-padding: 8px;
 #breadcrumbs {
     
     height: $breadcrumbs-height;
-    width : $breadcrumbs-width;
     text-align:center;
     margin:0 $margin-left 15px $margin-left;
     width: $container-width - 2 * $margin-left;
@@ -367,6 +367,33 @@ $breadcrumbs-padding: 8px;
 
     @include border-radius(6px);
 }
+
+/******************/
+/* Warning edit   */
+/******************/
+
+#warning_edit {
+    color:#000;
+    font-weight:normal;
+        
+    background: $warning-color;
+    @include background-image(linear-gradient($warning-color, scale-lightness($warning-color, -20))); 
+
+    font-size:12px;    
+    
+    padding:5px 10px;
+    
+    margin:10px $margin-left 20px $margin-left;
+    width: $container-width - 2 * $margin-left - $breadcrumbs-padding * 3 + 5;
+
+    z-index: 2;
+    position:relative;
+    top:0px;
+    left:0px;
+
+    @include border-radius();
+}
+
 
 /****************/
 /* Input screen */

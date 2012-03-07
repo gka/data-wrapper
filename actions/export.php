@@ -13,24 +13,20 @@ if (isset($_GET['c'])){
 	
 	$chart_id = $_GET['c'];
 
-	//Asks the DB for the data
-	$q = "SELECT chart_csv_data, chart_title FROM charts WHERE chart_id='$chart_id' LIMIT 1";
+	$chart = new Chart($mysqli);
 
-	if ($result = $mysqli->query($q)) {
+	$chart->setID($chart_id);
+
+	$chart->refreshData();
+
+	if ($chart->csv_data) {
 		
-		//fetches the result
-		while ($row = $result->fetch_object()) {
-
-			$csv_data = unserialize($row->chart_csv_data);
-			$chart_title = $row->chart_title;
-			
-		}
 
 		//Formats file name using chart title and removing special chars
-		if ($chart_title == "")
-			$chart_title = "ExportfromDataStory";
+		if ($chart->title == "")
+			$filename = "ExportfromDatawrapper";
 		else
-			$chart_title = str_replace(array("?", "[", "]", "/", "\\", "=", "+", "<", ">", ":", ";", "\"", ",", "*", " ", "'"), "", $chart_title);
+			$filename = str_replace(array("?", "[", "]", "/", "\\", "=", "+", "<", ">", ":", ";", "\"", ",", "*", " ", "'"), "", $chart->title);
 
 		/***********************/
 		/* Prints the CSV file */
@@ -38,12 +34,12 @@ if (isset($_GET['c'])){
 
 		//Sends headers
 		header("Content-type: application/csv");
-		header("Content-Disposition: attachment; filename=". $chart_title .".csv");
+		header("Content-Disposition: attachment; filename=". $filename .".csv");
 		header("Pragma: no-cache");
 		header("Expires: 0");
 
 		//Gets the data
-		foreach ($csv_data as $row){
+		foreach ($chart->csv_data as $row){
 
 			$cell_count = 0;
 
@@ -65,8 +61,6 @@ if (isset($_GET['c'])){
 	}else{ //no mysql result
 
 		echo  _("Could not fetch the data from the database.");
-		echo "<br>";
-		echo $mysqli->error;
 
 	}
 

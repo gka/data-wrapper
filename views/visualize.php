@@ -1,4 +1,4 @@
-<!-- This file holds all HTML/JS contents for the screen "5.VISUALIZE" -->
+<!-- This file holds all HTML/JS contents for the screen "3.VISUALIZE" -->
 
 <?php
   
@@ -54,7 +54,7 @@ options = {
 
 function js_enterScreen_visualize(){
 
-	$.post("actions/check.php", { chart_id: chart_id, action: "current" },
+	$.post("actions/charts.php", { chart_id: chart_id, action: "getData" },
    		function(data) {
 
    			loader_hide();
@@ -191,12 +191,8 @@ function update_options(){
 
 	//loads the appropriate JS
 	$.getScript('visualizations/types/'+vis_code, function(){
-	   
-		//updates the chart
-		render_chart(options, theme);
-
-		//stores the var options
-		$("#visualize_data").val(JSON.stringify(options));
+		//updates the chart without the logo
+		render_chart(options, theme, false);
 
 	});
 

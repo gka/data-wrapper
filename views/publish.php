@@ -22,7 +22,7 @@ function js_enterScreen_publish(){
 		window.location.href = 'actions/export.php?c=' + chart_id;
 	});
 
-	$.post("actions/publish.php", { chart_id: chart_id, action: "current" },
+	$.post("actions/charts.php", { chart_id: chart_id, action: "getData" },
 
    		function(data) {
 

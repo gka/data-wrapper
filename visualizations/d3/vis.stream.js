@@ -86,28 +86,36 @@ function stream_render(render_div, opt, theme){
           .text(2000);
   subtitle.text(opt.subtitle.text);
   
+  //Adds background to the legend box
+  var legend_box = vis.append("svg:rect")
+        .style("fill", "#fff")
+        .style("opacity", .6)
+        .attr("width", "200")
+        .attr("height", 15*opt.series.length + 5 )
+        .attr("transform", "translate(35, " + String(100 - 15*(opt.series.length-1)-5) + ")scale(1,1)");
+
   //Adds the Legend
   for (cnt_layer in opt.series) {
-
     layer_title = opt.series[cnt_layer].name;
 
     //Adds a colobox
-    var legend_box = vis.append("svg:rect")
+    var legend_item_box = vis.append("svg:rect")
         .style("fill", color_array[cnt_layer])
         .attr("width", "10")
         .attr("height", "10")
-        .attr("transform", "translate(40, " + String(50+15*cnt_layer) + ")scale(1,1)");
+        .attr("transform", "translate(40, " + String(100-15*cnt_layer) + ")scale(1,1)");
 
     //Adds the text
-    var legend_text = vis.append("svg:text")
+    var legend_item_text = vis.append("svg:text")
           .style("font", Highcharts.theme.xAxis.labels.style.font)
           .style("fill", Highcharts.theme.xAxis.labels.style.color)
           .attr("dy", ".71em")
-          .attr("transform", "translate(55, " + String(50+15*cnt_layer) + ")scale(1,1)")
+          .attr("transform", "translate(55, " + String(100-15*cnt_layer) + ")scale(1,1)")
           .text(2000);
-    legend_text.text(layer_title);
+    legend_item_text.text(layer_title);
 
   }
+
 
   //Adds the vertical axis
   var yAxis_title = vis.append("svg:text")

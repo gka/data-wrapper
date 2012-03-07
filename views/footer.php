@@ -16,7 +16,7 @@
 				<span class=".separator"> • </span>
 				<a href="#installation" class="fancybox"><?php echo _("Install") ?></a>
 				<span class=".separator"> • </span>
-				<a href="https://github.com/n-kb/Datawrapper" target="_blank"><?php echo _("Fork me on GitHub!") ?></a>
+				<a href="https://github.com/n-kb/data-wrapper" target="_blank"><?php echo _("Fork me on GitHub!") ?></a>
 				<?php
 
 				//Loads the divs that will appear in the fancybox
@@ -29,18 +29,20 @@
 
 		</div>
 
-		<!-- Piwik --> 
-		<script type="text/javascript">
-		var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.datastory.de/piwik/" : "http://www.datastory.de/piwik/");
-		document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-		</script><script type="text/javascript">
-		try {
-		var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
-		piwikTracker.trackPageView();
-		piwikTracker.enableLinkTracking();
-		} catch( err ) {}
-		</script><noscript><p><img src="http://www.datastory.de/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
-		<!-- End Piwik Tracking Code -->
+		<?php if (defined('PIWIK_PATH')): ?>
+			<!-- Piwik --> 
+			<script type="text/javascript">
+			var pkBaseURL = (("https:" == document.location.protocol) ? "https://<?php echo PIWIK_PATH ?>" : "http://<?php echo PIWIK_PATH ?>");
+			document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+			</script><script type="text/javascript">
+			try {
+			var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+			piwikTracker.trackPageView();
+			piwikTracker.enableLinkTracking();
+			} catch( err ) {}
+			</script><noscript><p><img src="http://<?php echo PIWIK_PATH ?>piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+			<!-- End Piwik Tracking Code -->
+		<?php endif; ?>
 
     </body>
 </html>

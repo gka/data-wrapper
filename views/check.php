@@ -5,7 +5,7 @@
 
 function js_enterScreen_check(){
 
-	$.post("actions/check.php", { chart_id: chart_id, action: "current" },
+	$.post("actions/charts.php", { chart_id: chart_id, action: "getData" },
    		function(data) {
             
             loader_hide();
@@ -15,7 +15,6 @@ function js_enterScreen_check(){
      			data = jQuery.parseJSON(data);
 
      			if (data.status == 200){
-     				
      				
      				var count_rows = 0;
      				var tablehtml = '';
@@ -96,7 +95,7 @@ function transpose(chart_id){
     
     loader_show();
 
-	$.post("actions/transpose.php", { chart_id: chart_id },
+	$.post("actions/charts.php", { chart_id: chart_id, action: "transpose" },
    		function(data) {
 
             loader_hide();
@@ -122,7 +121,7 @@ function make_header(chart_id){
 
     loader_show();
 
-    $.post("actions/make_header.php", { chart_id: chart_id },
+    $.post("actions/charts.php", { chart_id: chart_id, action: "toggle_header" },
         function(data) {
 
             loader_hide();

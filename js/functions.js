@@ -2,7 +2,7 @@
 
 /*
  * @desc: Triggers error messages
- * @param1: The message to be displayed
+ * @param: The message to be displayed
  * @returns: Nothing
  *
  */
@@ -31,7 +31,7 @@ function error(msg){
 
 /*
  * @desc: Checks if the param is a numeric value
- * @param1: A variable of any type
+ * @param: A variable of any type
  * @returns: true if n is a number, false otherwise
  *
  */
@@ -42,8 +42,8 @@ function error(msg){
 
 /*
  * @desc: Rounds number with precision
- * @param1: The number to be rounded
- * @param2: The precision (decimals)
+ * @param: The number to be rounded
+ * @param: The precision (decimals)
  * @returns: The rounded number
  *
  */
@@ -54,9 +54,12 @@ function error(msg){
 }
 
 
-/****************************************************************/
-/* These functions have to do with Highchart (tooltip & labels) */
-/****************************************************************/
+/*
+ * @desc: formats the labels for Highcharts
+ * @param: A value
+ * @returns: the string to display on the chart
+ *
+ */
 
 function pieLabels(value) {return '<b>'+ value.point.name +'</b>: '+ roundNumber(value.percentage, 2) +' %';}
 
@@ -64,9 +67,11 @@ function pieTooltip(value) { return '' + value.point.name + ': ' + value.y ; }
 
 function barTooltip(value) { return '' + value.x +': '+ value.y ; }
 
-/****************************************************************/
-/* These functions show/hide the loading animations             */
-/****************************************************************/
+
+/*
+ * @desc: Loads the loading anim
+ *
+ */
 
 function loader_show(){
 	$("#black_veil").fadeIn("fast", function(){
@@ -75,26 +80,41 @@ function loader_show(){
 	$("#loader").show();
 }
 
+/*
+ * @desc: Removes the loading anim
+ *
+ */
+
 function loader_hide(){
 
 	$("#loader").hide();
 	$("#black_veil").fadeOut("fast");
 }
 
-/***************************************************************************************/
-/* Initializes the input fields so they behave properly onfocus and onblur             */
-/***************************************************************************************/
+/*
+ * @desc: Initialize the input fields so they behave on focus and on blur
+ *
+ */
 
 function initInputs(){
+	
 	$(document).find("input").each(function(){
+		
 		var default_content = jQuery(this).val();
+		
 		jQuery(this).focus(function(){
+			
 			if (jQuery(this).val() == default_content){
+			
 				jQuery(this).val("");
+			
 			}
 		});
+
 		jQuery(this).blur(function(){
+			
 			if (jQuery(this).val() == ""){
+
 				jQuery(this).val(default_content);
 
 				//Updates the graph
@@ -106,11 +126,14 @@ function initInputs(){
 }
 
 
-/*********************************/
-/* Renders the chart             */
-/*********************************/
+/*
+ * @desc 	Renders the chart
+ * @param	opt 	options object
+ * @param 	theme 	the chart's theme
+ *
+ */
 
-function render_chart(opt, theme){
+function render_chart(opt, theme, showLogo){
 
 	//gets chart width & height
 	var render_div = opt.chart.renderTo;
@@ -133,6 +156,10 @@ function render_chart(opt, theme){
 				image_h = data.themes[theme].image.height;
 				image_ext = data.themes[theme].image.format;
 
+				//Computes logo position (chart width minus image width minus margin)
+				logo_x = chart_w-image_w-(chart_w * .05);
+				logo_y = chart_h-image_h-(chart_h * .05);
+
 			}
 		}
 	
@@ -149,21 +176,8 @@ function render_chart(opt, theme){
 				//Once the theme is loaded, renders chart
 				if (opt.chart.chart_lib == "highcharts"){
 
-					chart = new Highcharts.Chart(opt, function (chart){
+					chart = new Highcharts.Chart(opt);
 
-						if (image_w != 0){
-							//Add logo to the chart
-
-							//Computes logo position (chart width minus image width minus margin)
-							logo_x = chart_w-image_w-(chart_w * .05);
-							logo_y = chart_h-image_h-(chart_h * .05);
-
-							//Renders the logo
-							chart.renderer.image('themes/images/'+theme+'.'+image_ext, logo_x, logo_y, image_w, image_h)
-		        			.add(); 
-		        			
-		        		}
-		        	});
 	        	}else if (opt.chart.chart_lib == "responsive"){
 	        		
 	        		responsive_render(render_div, opt, theme);
@@ -179,8 +193,23 @@ function render_chart(opt, theme){
 	        				stream_render(render_div, opt, theme);
 	        			});
 	        		}
-
 	        	}
+
+
+	        	//adds the theme's logo
+	        	if (data.themes[theme].image != null && showLogo !== false){
+	        		var linkTo = "";
+	        		var linkTo_close = "";
+	        		//prepares the link
+	        		if (data.themes[theme].link != null){
+	        			linkTo = "<a href='"+ data.themes[theme].link +"' target='_blank'>";
+	        			linkTo_close = "</a>";
+	        		}
+
+	        		$("#"+render_div)
+	        			.append(linkTo + "<img src='themes/images/"+ theme +"."+ image_ext +"'style='position:absolute; z-index:12; width:"+ image_w +"px; height:"+ image_h +"px; top:"+ logo_y +"px; right:"+ logo_x +"px;'/>"+ linkTo_close);
+	        	}
+
 			});
 
 		}else{
@@ -222,8 +251,10 @@ function stripslashes (str) {
 }
 
 /*
-* Checks if a string is a valide email address
-*/
+ * @desc: Checks the email address format
+ * @return: true if it looks like an email address
+ *
+ */
 
 function test_email(email){
 	var emailReg = new RegExp(/^([a-zA-Z0-9_.-])+@([a-zA-Z0-9_.-])+\.([a-zA-Z])+([a-zA-Z])+/);

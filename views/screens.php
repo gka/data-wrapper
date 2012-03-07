@@ -4,7 +4,7 @@
 
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-        <title><?php echo _("Datawrapper, a project by DataStory") ?></title>
+        <title><?php echo _("Datawrapper, a project by ABZV") ?></title>
 
         <!-- General styles -->
         <link rel="stylesheet" type="text/css" href="css/stylesheets/general.css" />
@@ -60,14 +60,26 @@
             //hides all screens on startup
             $('.screen').hide();
 
-            <?php if (isset($_POST["options"])):?>
+            <?php if (isset($_GET["m"])):
+
                 //This section appears only if user comes from the vis_list page
+
+                $chart_id = $_GET["m"];
+
+                //finds the chart
+                $chart = new Chart($mysqli); 
+
+                //gets the vars
+                $chart->setID($chart_id);
+
+                ?>
                 
                 //sets the globals options, data and chart_id according to what has been transmitted
-                options = <?php echo stripslashes($_POST["options"]) ?>;
-                chart_id = <?php echo $_POST["chart_id"] ?>;
-                csv_data = <?php echo json_encode(unserialize(stripslashes($_POST["csv_data"]))) ?>;
-                tsv_data = "<?php echo str_replace(array('@@TAB@@', '@@BREAK@@'), array('\t', '\n'), $_POST["tsv_data"]); ?>";
+                options = <?php echo  $chart->js_code ?>;
+                chart_id = <?php echo $chart_id ?>;
+                csv_data = <?php echo json_encode($chart->csv_data) ?>;
+                tsv_data = "<?php echo $chart->tsv_data ?>";
+                horizontal_headers = <?php echo  $chart->has_horizontal_headers ?>;
 
                 //Populates the first field (1. INPUT)
                 $("#input_data").val(tsv_data);
@@ -102,7 +114,7 @@
                 $("#chart_theme").val(options.chart.chart_theme);
 
                 //renders chart
-                render_chart(options, "default");
+                update_options();
 
                 //sends the user directly to the 3. Visualize screen
                 showSlide("visualize", "empty");
@@ -223,8 +235,13 @@
         		</button>
         	</div>
 
-        	<div id="screen_container">
+            <?php if (isset($_GET["m"])): ?>
+                <div id="warning_edit">
+                    <?php echo _("The chart you're editing is already published online. Use caution.") ?>
+                </div>
+            <?php endif; ?>
 
+        	<div id="screen_container">
         		<!-- Loads the different screens -->
 
                 <!-- We need an empty screen for smooth transitions when user is landing -->

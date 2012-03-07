@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-18 18:29+0100\n"
-"PO-Revision-Date: 2012-02-22 21:46+0100\n"
+"POT-Creation-Date: 2012-03-02 12:19+0100\n"
+"PO-Revision-Date: 2012-03-02 12:19+0100\n"
 "Last-Translator: nkb <hi@nkb.fr>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -209,7 +209,7 @@ msgid "Make first row a header row"
 msgstr "Erste Zeile als Kopfzeile setzen"
 
 #: views/comingsoon.php:7
-msgid "Datawrapper, a project by DataStory"
+msgid "Datawrapper, a project by ABZV"
 msgstr "Datawrapper ist ein Projekt der ABZV"
 
 #: views/comingsoon.php:28
@@ -619,8 +619,8 @@ msgid "This quick tutorial will not be shown again."
 msgstr "Der Schnellstart wird nicht mehr angezeigt werden."
 
 #: views/embed.php:7
-msgid "A chart created by Data Story"
-msgstr "Visualisierung von DataStory kreirt"
+msgid "Chart created with Datawrapper"
+msgstr "Chart mit Datawrapper erstellt."
 
 #: views/embed.php:129
 msgid "Link"
@@ -717,10 +717,10 @@ msgstr "Bitten geben Sie eine gültige E-Mail-Addresse ein."
 #: views/login.php:146
 #: views/login.php:195
 #: views/login.php:265
-#: views/login.php:289
-#: views/login.php:290
-#: views/login.php:328
-#: views/login.php:329
+#: views/login.php:282
+#: views/login.php:283
+#: views/login.php:322
+#: views/login.php:323
 msgid "Password"
 msgstr "Kennwort"
 
@@ -789,7 +789,7 @@ msgid "Login for registered users:"
 msgstr "Login für registrierte Nutzer"
 
 #: views/login.php:264
-#: views/login.php:311
+#: views/login.php:305
 msgid "E-mail"
 msgstr "E-Mail"
 
@@ -805,57 +805,55 @@ msgstr "Einloggen"
 msgid "First time user? Register here."
 msgstr "Neuer Nutzer? Bitte zuerst registrieren."
 
-#: views/login.php:272
-#: views/login.php:302
-msgid "Resources to get started:"
-msgstr "Anleitungen und technische Informationen:"
-
-#: views/login.php:273
-#: views/login.php:303
-msgid "Installation guide"
-msgstr "Installationsleitfaden"
-
-#: views/login.php:282
+#: views/login.php:275
 msgid "Create an account on Datawrapper:"
 msgstr "Kostenlos anmelden:"
 
-#: views/login.php:283
+#: views/login.php:276
 msgid "Enter your e-mail address"
 msgstr "E-Mail-Addresse"
 
-#: views/login.php:284
+#: views/login.php:277
 msgid "email@provider.tld"
 msgstr "email@provider.tld"
 
-#: views/login.php:288
+#: views/login.php:281
 msgid "Enter password twice"
 msgstr "Bitte geben Sie Ihr Kennwort zweimal ein."
 
-#: views/login.php:294
+#: views/login.php:287
 msgid "I agree to the Terms of Use"
 msgstr "Ich akzeptiere die Nutzungsbedingungen."
 
-#: views/login.php:298
+#: views/login.php:291
 msgid "Sign up"
 msgstr "Registrieren"
 
-#: views/login.php:298
+#: views/login.php:291
 msgid "Log in"
 msgstr "Einloggen"
 
-#: views/login.php:309
+#: views/login.php:297
+msgid "Resources to get started:"
+msgstr "Anleitungen und technische Informationen:"
+
+#: views/login.php:298
+msgid "Installation guide"
+msgstr "Installationsleitfaden"
+
+#: views/login.php:303
 msgid "Enter your e-mail address to reset your password."
 msgstr "Geben Sie Ihre E-Mail-Adresse ein, um das Kennwort zurückzusetzen."
 
-#: views/login.php:315
+#: views/login.php:309
 msgid "Reset password"
 msgstr "Kennwort zurücksetzen"
 
-#: views/login.php:327
+#: views/login.php:321
 msgid "Enter your new password twice"
 msgstr "Bitte geben Sie Ihr neues Kennwort zweimal ein."
 
-#: views/login.php:333
+#: views/login.php:327
 msgid "Change password"
 msgstr "Kennwort ändern"
 
@@ -999,6 +997,9 @@ msgstr "Tortendiagramme erstellen (Englisch)"
 #: visualizations/config.json.php:81
 msgid "Simplified pie chart"
 msgstr "Vereinfachte Tortengrafik"
+
+#~ msgid "A chart created by Data Story"
+#~ msgstr "Visualisierung von DataStory kreirt"
 
 #~ msgid "This is a tool to let journalists work with data every day."
 #~ msgstr "Open Source: Kann auf eigenem Server installiert werden"

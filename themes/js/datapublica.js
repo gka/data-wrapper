@@ -18,7 +18,12 @@ Highcharts.theme = {
 		}
 	},
 	credits: {
-		enabled: false
+		enabled: true,
+		position: {
+            align: 'left',
+            x:10
+        },
+		href: 'http://shop.highsoft.com/highcharts.html'
 	},
 	subtitle: {
 		style: { 

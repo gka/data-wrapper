@@ -4,7 +4,7 @@
 
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-        <title><?php echo _("Datawrapper, a project by DataStory") ?></title>
+        <title><?php echo _("Datawrapper, a project by ABZV") ?></title>
 
         <!-- General styles -->
         <link rel="stylesheet" type="text/css" href="css/stylesheets/general.css" />
@@ -57,7 +57,7 @@
             });		
 
             //loads the list of visualizations
-            $.post('actions/list_vis.php', function(data){
+            $.post('actions/user.php',{action:"list_vis"}, function(data){
                 if (data != ""){
                     data = jQuery.parseJSON(data);
 
@@ -80,16 +80,6 @@
 
 	     });
 
-        function formSubmit(opt, chart_id, csv_data, tsv_data){
-
-          document.forms[0].options.value = opt;
-          document.forms[0].chart_id.value = chart_id;
-          document.forms[0].csv_data.value = csv_data;
-          document.forms[0].tsv_data.value = tsv_data;
-          document.forms[0].submit();
-
-        }
-
 	    </script>
 
         <div id="container">
@@ -104,20 +94,8 @@
                 <div id="vis_list">
                     <h1><?php echo _("Your visualizations") ?></h1>
 
-                    <!-- Form that is used to pass the "options" var to the edit page -->
-
-                    <form action="<?php echo BASE_DIR ?>" method=POST>
-                    <input type=hidden name="options" value=-1>
-                    <input type=hidden name="csv_data" value=-1>
-                    <input type=hidden name="chart_id" value=-1>
-                    <input type=hidden name="tsv_data" value=-1>
-
-                        <!-- List of visualizations goes here -->
-                        <div id="vis_list_inform"></div>
-                    
-                    </form>
-                    <!-- end form -->
-
+                    <!-- List of visualizations goes here -->
+                    <div id="vis_list_inform"></div>
 
                 </div>
 

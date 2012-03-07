@@ -1,0 +1,7 @@
+# rewrites URL to datawrapper de
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} !^localhost$
+RewriteCond %{HTTP_HOST} !^datawrapper\.de$ [NC]
+RewriteRule ^(.*)$ http://datawrapper.de/$1 [R=301]
