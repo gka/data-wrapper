@@ -64,7 +64,7 @@
 
                 //This section appears only if user comes from the vis_list page
 
-                $chart_id = $_GET["m"];
+                $chart_id = intval($_GET["m"]);
 
                 //finds the chart
                 $chart = new Chart($mysqli); 
