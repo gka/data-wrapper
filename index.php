@@ -32,7 +32,7 @@ if (isset($_GET["c"])){
 		if (isset($_GET["m"])){
 
 			//verifies that the vis belongs to user
-			if ($user->own_vis($_GET["m"]) === true)
+			if ($user->own_vis(intval($_GET["m"])) === true)
 				require_once "views/screens.php";
 			else
 				require_once "views/error.php";
