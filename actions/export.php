@@ -11,7 +11,7 @@ require_once("../config.php");
 
 if (isset($_GET['c'])){
 	
-	$chart_id = $_GET['c'];
+	$chart_id = intval($_GET['c']);
 
 	$chart = new Chart($mysqli);
 
