@@ -14,7 +14,7 @@ if (isset($_POST['action'])){
 
 	if  (isset($_POST['chart_id'])){
 		
-		$chart_id = $_POST['chart_id'];
+		$chart_id = intval($_POST['chart_id']);
 
 		$chart->setID($chart_id);
 	
